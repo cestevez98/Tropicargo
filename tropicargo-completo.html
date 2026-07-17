@@ -1,0 +1,914 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tropicargo — Sitio completo (vista en un solo archivo)</title>
+  <meta name="description" content="Tropicargo mueve tus paquetes entre Estados Unidos y Cuba. Casillero virtual en Miami, compras asistidas, dropshipping y envíos exprés, aéreos y marítimos. Recibimos, pesamos y enviamos.">
+  <meta name="theme-color" content="#0c2648">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iNTExIiB6b29tQW5kUGFuPSJtYWduaWZ5IiB2aWV3Qm94PSIwIDAgMzgzLjI1IDM4My4yNDk5ODYiIGhlaWdodD0iNTExIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJ4TWlkWU1pZCBtZWV0IiB2ZXJzaW9uPSIxLjAiPjxkZWZzPjxjbGlwUGF0aCBpZD0iOTgzZTcyZTU1YiI+PHBhdGggZD0iTSA0NCA1OS4wODIwMzEgTCAzNzIgNTkuMDgyMDMxIEwgMzcyIDMzOSBMIDQ0IDMzOSBaIE0gNDQgNTkuMDgyMDMxICIgY2xpcC1ydWxlPSJub256ZXJvIi8+PC9jbGlwUGF0aD48L2RlZnM+PGcgY2xpcC1wYXRoPSJ1cmwoIzk4M2U3MmU1NWIpIj48cGF0aCBmaWxsPSIjMGMyNjQ4IiBkPSJNIDY1LjM4MjgxMiA1OS4wODIwMzEgTCA0NC4wNzQyMTkgMTQyLjA3MDMxMiBMIDE0OC42Nzk2ODggMTQyLjA3MDMxMiBMIDEzNi4xMjUgMTkwLjg3NSBMIDEzNS44NjcxODggMTkxLjcxMDkzOCBMIDExNi41NTg1OTQgMjY2Ljc4NTE1NiBMIDExNi4xNzE4NzUgMjY4LjMyODEyNSBMIDEwOS4xNTYyNSAyOTUuNjkxNDA2IEwgOTguMjEwOTM4IDMzOC4xMjEwOTQgTCAyMDYuNDg0Mzc1IDI4OS4zODI4MTIgTCAyMTAuMTU2MjUgMjczLjkyOTY4OCBMIDIxMy4yNDYwOTQgMjYxLjgyODEyNSBMIDIyNC42MzY3MTkgMjE3LjY2MDE1NiBMIDIzMC41NjI1IDE5NC43MzgyODEgTCAyMzIuMjk2ODc1IDE4Ny45MTQwNjIgTCAyMzkuNTA3ODEyIDE1OS44NDM3NSBMIDI0NC4wNzgxMjUgMTQyLjAwNzgxMiBMIDM0OS43MTQ4NDQgMTQyLjAwNzgxMiBDIDM0OS43MTQ4NDQgMTQyLjAwNzgxMiAzNzEuMDE5NTMxIDU5LjAxNTYyNSAzNzEuMDE5NTMxIDU5LjAxNTYyNSBMIDY1LjMxNjQwNiA1OS4wMTU2MjUgWiBNIDY1LjM4MjgxMiA1OS4wODIwMzEgIiBmaWxsLW9wYWNpdHk9IjEiIGZpbGwtcnVsZT0ibm9uemVybyIvPjwvZz48cGF0aCBmaWxsPSIjZWRhMTNiIiBkPSJNIDM0OS4wNzAzMTIgMTQyLjA3MDMxMiBMIDMyNC4wMjczNDQgMjM5LjQyMTg3NSBMIDIwNi41NTA3ODEgMjg5LjM4MjgxMiBMIDIzMS4xNDA2MjUgMTkyLjc0MjE4OCBaIE0gMzQ5LjA3MDMxMiAxNDIuMDcwMzEyICIgZmlsbC1vcGFjaXR5PSIxIiBmaWxsLXJ1bGU9Im5vbnplcm8iLz48cGF0aCBmaWxsPSIjMjg4MzhjIiBkPSJNIDE0OC42Nzk2ODggMTQyLjA3MDMxMiBMIDEyMy44OTQ1MzEgMjM4LjgzOTg0NCBMIDUuNzczNDM4IDI5MC40MTQwNjIgTCAzMS4xOTkyMTkgMTkxLjY0ODQzOCBaIE0gMTQ4LjY3OTY4OCAxNDIuMDcwMzEyICIgZmlsbC1vcGFjaXR5PSIxIiBmaWxsLXJ1bGU9Im5vbnplcm8iLz48cGF0aCBmaWxsPSIjMzhhY2M2IiBkPSJNIDIzMS4xNDA2MjUgMTkyLjc0MjE4OCBMIDIwNi41NTA3ODEgMjg5LjM4MjgxMiBMIDk4LjI3NzM0NCAzMzguMTg3NSBMIDEyMy43NjU2MjUgMjM5LjE2NDA2MiBaIE0gMjMxLjE0MDYyNSAxOTIuNzQyMTg4ICIgZmlsbC1vcGFjaXR5PSIxIiBmaWxsLXJ1bGU9Im5vbnplcm8iLz48L3N2Zz4=">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Tropicargo — Logística entre EE. UU. y Cuba">
+  <meta property="og:description" content="Recibimos, pesamos y enviamos. Casillero virtual en Miami y envíos a toda Cuba.">
+  <meta property="og:locale" content="es_ES">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+/* ===================================================================
+   Tropicargo — Modern site
+   Paleta de marca: navy #0c2648 / #1B293B · naranja #fa5a28 / #eda13b
+   cyan #38acc6 · teal #28838c
+   =================================================================== */
+
+:root {
+  --navy: #0c2648;
+  --navy-2: #1b293b;
+  --navy-800: #14233d;
+  --orange: #fa5a28;
+  --orange-2: #eda13b;
+  --cyan: #38acc6;
+  --teal: #28838c;
+
+  --ink: #16233a;
+  --muted: #5a6b83;
+  --line: #e6eaf1;
+  --bg: #ffffff;
+  --bg-alt: #f5f7fb;
+
+  --radius: 16px;
+  --radius-lg: 24px;
+  --shadow-sm: 0 4px 14px rgba(12, 38, 72, .06);
+  --shadow: 0 18px 50px rgba(12, 38, 72, .12);
+  --shadow-lg: 0 30px 70px rgba(12, 38, 72, .22);
+
+  --container: 1180px;
+  --ff-head: 'Sora', system-ui, sans-serif;
+  --ff-body: 'Inter', system-ui, sans-serif;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; scroll-padding-top: 90px; }
+
+body {
+  margin: 0;
+  font-family: var(--ff-body);
+  color: var(--ink);
+  background: var(--bg);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4 { font-family: var(--ff-head); line-height: 1.15; margin: 0 0 .5em; color: var(--navy); }
+h1 { font-size: clamp(2rem, 5vw, 3.4rem); font-weight: 800; letter-spacing: -.02em; }
+h2 { font-size: clamp(1.6rem, 3.6vw, 2.4rem); font-weight: 700; letter-spacing: -.01em; }
+h3 { font-size: 1.2rem; font-weight: 700; }
+p { margin: 0 0 1rem; }
+a { color: inherit; text-decoration: none; }
+img { max-width: 100%; display: block; }
+.ico { width: 1.15em; height: 1.15em; fill: currentColor; flex: none; }
+
+.container { width: 100%; max-width: var(--container); margin-inline: auto; padding-inline: 22px; }
+.container--narrow { max-width: 820px; }
+
+/* ---------- Buttons ---------- */
+.btn {
+  --btn-bg: var(--navy);
+  display: inline-flex; align-items: center; justify-content: center; gap: .5rem;
+  font-family: var(--ff-head); font-weight: 600; font-size: .95rem;
+  padding: .8rem 1.4rem; border-radius: 999px; border: 1.5px solid transparent;
+  cursor: pointer; transition: transform .15s ease, box-shadow .2s ease, background .2s ease, color .2s ease;
+  background: var(--btn-bg); color: #fff; white-space: nowrap;
+}
+.btn:hover { transform: translateY(-2px); box-shadow: var(--shadow); }
+.btn--accent { --btn-bg: var(--orange); box-shadow: 0 10px 26px rgba(250, 90, 40, .3); }
+.btn--accent:hover { background: #ff6a3c; }
+.btn--ghost { background: transparent; border-color: rgba(255,255,255,.5); color: #fff; }
+.btn--ghost:hover { background: rgba(255,255,255,.12); box-shadow: none; }
+.section .btn--ghost, .plan .btn--ghost { border-color: var(--line); color: var(--navy); }
+.section .btn--ghost:hover, .plan .btn--ghost:hover { background: var(--bg-alt); }
+.btn--lg { padding: 1rem 1.8rem; font-size: 1.02rem; }
+.btn--block { width: 100%; }
+
+.eyebrow {
+  display: inline-block; font-family: var(--ff-head); font-weight: 600;
+  font-size: .78rem; letter-spacing: .14em; text-transform: uppercase;
+  color: var(--orange-2); background: rgba(250,90,40,.12);
+  padding: .35rem .8rem; border-radius: 999px; margin-bottom: 1rem;
+}
+.eyebrow--dark { color: var(--teal); background: rgba(56,172,198,.14); }
+
+/* ---------- Top bar ---------- */
+.topbar { background: var(--navy); color: #cdd7e6; font-size: .82rem; border-bottom: 1px solid rgba(255,255,255,.08); }
+.topbar__inner { display: flex; justify-content: space-between; align-items: center; gap: 1rem; min-height: 40px; }
+.topbar__contact { display: flex; gap: 1.4rem; align-items: center; flex-wrap: wrap; }
+.topbar__contact a, .topbar__addr { display: inline-flex; align-items: center; gap: .4rem; color: #cdd7e6; }
+.topbar__contact a:hover { color: #fff; }
+.topbar__social { display: flex; gap: .4rem; }
+.topbar__social a { display: grid; place-items: center; width: 30px; height: 30px; border-radius: 50%; background: rgba(255,255,255,.08); color: #dfe6f0; transition: background .2s, transform .2s; }
+.topbar__social a:hover { background: var(--orange); color: #fff; transform: translateY(-2px); }
+
+/* ---------- Header ---------- */
+.header { position: sticky; top: 0; z-index: 50; background: rgba(12,38,72,.9); backdrop-filter: blur(12px); border-bottom: 1px solid rgba(255,255,255,.08); }
+.header__inner { display: flex; align-items: center; justify-content: space-between; min-height: 74px; }
+.brand__logo { height: 40px; width: auto; }
+.nav { display: flex; align-items: center; gap: 1.7rem; }
+.nav > a { font-family: var(--ff-head); font-weight: 600; font-size: .95rem; color: #e7edf6; }
+.nav > a:not(.btn):hover, .nav > a.active { color: var(--orange-2); }
+.nav__cta { padding: .6rem 1.15rem; }
+.nav__toggle { display: none; flex-direction: column; gap: 5px; background: none; border: 0; cursor: pointer; padding: 8px; }
+.nav__toggle span { width: 26px; height: 2.5px; background: #fff; border-radius: 2px; transition: .3s; }
+.nav__toggle[aria-expanded="true"] span:nth-child(1) { transform: translateY(7.5px) rotate(45deg); }
+.nav__toggle[aria-expanded="true"] span:nth-child(2) { opacity: 0; }
+.nav__toggle[aria-expanded="true"] span:nth-child(3) { transform: translateY(-7.5px) rotate(-45deg); }
+
+/* ---------- Hero ---------- */
+.hero { position: relative; color: #fff; overflow: hidden; background: var(--navy); }
+.hero__bg {
+  position: absolute; inset: 0;
+  background:
+    radial-gradient(60% 80% at 85% 15%, rgba(56,172,198,.35), transparent 60%),
+    radial-gradient(50% 70% at 10% 90%, rgba(250,90,40,.28), transparent 60%),
+    linear-gradient(160deg, #0c2648 0%, #14233d 60%, #0c2648 100%);
+}
+.hero__bg::after {
+  content: ""; position: absolute; inset: 0;
+  background-image: radial-gradient(rgba(255,255,255,.06) 1px, transparent 1px);
+  background-size: 26px 26px; opacity: .5;
+}
+.hero__inner { position: relative; display: grid; grid-template-columns: 1.15fr .85fr; gap: 3rem; align-items: center; padding: clamp(3rem, 7vw, 5.5rem) 0; }
+.hero h1 { color: #fff; }
+.grad { background: linear-gradient(90deg, var(--orange-2), var(--orange) 50%, var(--cyan)); -webkit-background-clip: text; background-clip: text; color: transparent; }
+.hero__lead { font-size: 1.12rem; color: #cfd9e8; max-width: 40ch; }
+.hero__actions { display: flex; gap: .9rem; flex-wrap: wrap; margin: 1.6rem 0 1.4rem; }
+.hero__points { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: .6rem 1.4rem; color: #dbe4f0; font-size: .93rem; }
+.hero__points li { display: inline-flex; align-items: center; gap: .45rem; }
+.hero__points .ico { color: var(--cyan); }
+
+/* ---------- Card base ---------- */
+.card { background: var(--bg); border: 1px solid var(--line); border-radius: var(--radius-lg); box-shadow: var(--shadow-sm); }
+
+/* Cotizador */
+.quote { padding: 1.6rem; box-shadow: var(--shadow-lg); }
+.quote__title { font-size: 1.25rem; margin-bottom: 1.1rem; }
+.quote__form { display: grid; gap: .9rem; }
+.field { display: grid; gap: .35rem; font-size: .82rem; font-weight: 600; color: var(--muted); }
+.field select, .field input {
+  width: 100%; padding: .7rem .85rem; border: 1.5px solid var(--line); border-radius: 12px;
+  font: inherit; font-weight: 500; color: var(--ink); background: #fff; transition: border-color .2s, box-shadow .2s;
+}
+.field select:focus, .field input:focus { outline: 0; border-color: var(--cyan); box-shadow: 0 0 0 3px rgba(56,172,198,.18); }
+.quote__result { display: flex; align-items: center; justify-content: space-between; background: var(--bg-alt); border-radius: 12px; padding: .8rem 1rem; }
+.quote__label { font-size: .82rem; color: var(--muted); font-weight: 600; }
+.quote__price { font-family: var(--ff-head); font-weight: 800; font-size: 1.7rem; color: var(--navy); }
+.quote__note { font-size: .72rem; color: var(--muted); margin: 0; }
+
+/* ---------- Stats ---------- */
+.stats { background: var(--navy-2); }
+.stats__grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; padding: 2.2rem 0; text-align: center; }
+.stat { padding: .4rem; }
+.stat__num { display: block; font-family: var(--ff-head); font-weight: 800; font-size: clamp(1.9rem, 4vw, 2.6rem); color: #fff; line-height: 1; }
+.stat__label { color: #aab8cd; font-size: .9rem; }
+
+/* ---------- Sections ---------- */
+.section { padding: clamp(3.5rem, 7vw, 6rem) 0; }
+.section--alt { background: var(--bg-alt); }
+.section--dark { background: var(--navy); }
+.section__head { max-width: 720px; margin: 0 auto 3rem; text-align: center; }
+.section__head p { color: var(--muted); font-size: 1.05rem; margin: 0; }
+.section__head--light h2 { color: #fff; }
+.section__head--light p { color: #b9c5d8; }
+.section__foot { text-align: center; color: var(--muted); margin-top: 2rem; font-weight: 500; }
+
+.grid { display: grid; gap: 1.4rem; }
+.grid--services { grid-template-columns: repeat(4, 1fr); }
+.grid--3 { grid-template-columns: repeat(3, 1fr); }
+.grid--4 { grid-template-columns: repeat(4, 1fr); }
+
+/* Servicios */
+.service { padding: 1.8rem 1.5rem; transition: transform .2s, box-shadow .2s, border-color .2s; }
+.service:hover { transform: translateY(-6px); box-shadow: var(--shadow); border-color: transparent; }
+.service__ico { font-size: 2rem; width: 60px; height: 60px; display: grid; place-items: center; border-radius: 16px; background: linear-gradient(135deg, rgba(56,172,198,.16), rgba(250,90,40,.14)); margin-bottom: 1rem; }
+.service h3 { margin-bottom: .4rem; }
+.service p { color: var(--muted); font-size: .95rem; margin: 0; }
+
+/* Envíos */
+.ship { padding: 1.7rem 1.5rem; transition: transform .2s, box-shadow .2s; }
+.ship:hover { transform: translateY(-6px); box-shadow: var(--shadow); }
+.ship--featured { border-color: var(--cyan); box-shadow: 0 20px 50px rgba(56,172,198,.2); }
+.ship__top { display: flex; align-items: center; justify-content: space-between; margin-bottom: 1rem; }
+.ship__badge { font-family: var(--ff-head); font-weight: 700; font-size: .8rem; padding: .3rem .7rem; border-radius: 999px; color: #fff; }
+.ship__badge--express { background: var(--orange); }
+.ship__badge--air { background: var(--cyan); }
+.ship__badge--sea { background: var(--teal); }
+.ship__time { font-weight: 700; font-family: var(--ff-head); color: var(--navy); font-size: .92rem; }
+.ship__ico { font-size: 2.4rem; margin-bottom: .6rem; }
+.ship p { color: var(--muted); font-size: .95rem; margin: 0; }
+
+/* Steps */
+.steps { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.6rem; counter-reset: s; }
+.step { position: relative; padding: 2.2rem 1.5rem 1.6rem; background: var(--bg-alt); border-radius: var(--radius-lg); }
+.step__num { position: absolute; top: -22px; left: 1.5rem; width: 48px; height: 48px; display: grid; place-items: center; border-radius: 14px; background: linear-gradient(135deg, var(--orange), var(--orange-2)); color: #fff; font-family: var(--ff-head); font-weight: 800; font-size: 1.3rem; box-shadow: 0 8px 20px rgba(250,90,40,.35); }
+.step h3 { margin: .3rem 0 .4rem; }
+.step p { color: var(--muted); font-size: .95rem; margin: 0; }
+
+/* Planes */
+.plans { align-items: stretch; }
+.plan { padding: 1.8rem 1.5rem; display: flex; flex-direction: column; position: relative; text-align: center; }
+.plan--popular { border: 2px solid var(--orange); box-shadow: var(--shadow); transform: translateY(-8px); }
+.plan__tag { position: absolute; top: -14px; left: 50%; transform: translateX(-50%); background: var(--orange); color: #fff; font-family: var(--ff-head); font-weight: 700; font-size: .72rem; letter-spacing: .05em; text-transform: uppercase; padding: .3rem .8rem; border-radius: 999px; }
+.plan__name { color: var(--teal); font-size: 1.05rem; letter-spacing: .04em; text-transform: uppercase; }
+.plan__price { font-family: var(--ff-head); font-weight: 800; font-size: 3rem; color: var(--navy); line-height: 1; margin: .3rem 0 1.2rem; }
+.plan__price span { font-size: 1.3rem; vertical-align: super; }
+.plan__price small { font-size: 1.1rem; color: var(--muted); }
+.plan__list { list-style: none; margin: 0 0 1.5rem; padding: 0; display: grid; gap: .6rem; text-align: left; flex: 1; }
+.plan__list li { position: relative; padding-left: 1.6rem; color: var(--muted); font-size: .93rem; }
+.plan__list li::before { content: "✓"; position: absolute; left: 0; color: var(--cyan); font-weight: 800; }
+
+/* Nosotros */
+.about { display: grid; grid-template-columns: .9fr 1.1fr; gap: 3rem; align-items: center; }
+.about__media { display: grid; place-items: center; }
+.about__badge { background: linear-gradient(160deg, #fff, var(--bg-alt)); border: 1px solid var(--line); border-radius: var(--radius-lg); padding: 3.5rem 2.5rem; box-shadow: var(--shadow); display: grid; place-items: center; position: relative; overflow: hidden; }
+.about__badge::before { content: ""; position: absolute; width: 220px; height: 220px; border-radius: 50%; background: radial-gradient(circle, rgba(56,172,198,.2), transparent 70%); top: -60px; right: -60px; }
+.about__list { list-style: none; margin: 0 0 1.6rem; padding: 0; display: grid; gap: .7rem; }
+.about__list li { position: relative; padding-left: 1.7rem; color: var(--muted); }
+.about__list li::before { content: ""; position: absolute; left: 0; top: .55em; width: 9px; height: 9px; border-radius: 50%; background: var(--orange); }
+.about__list strong { color: var(--navy); }
+
+/* FAQ */
+.faq { display: grid; gap: .8rem; }
+.faq__item { background: #fff; border: 1px solid var(--line); border-radius: 14px; padding: .3rem 1.2rem; box-shadow: var(--shadow-sm); }
+.faq__item summary { cursor: pointer; list-style: none; font-family: var(--ff-head); font-weight: 600; color: var(--navy); padding: 1rem 2rem 1rem 0; position: relative; }
+.faq__item summary::-webkit-details-marker { display: none; }
+.faq__item summary::after { content: "+"; position: absolute; right: 0; top: 50%; transform: translateY(-50%); font-size: 1.5rem; color: var(--orange); font-weight: 400; transition: transform .25s; }
+.faq__item[open] summary::after { transform: translateY(-50%) rotate(45deg); }
+.faq__item p { color: var(--muted); margin: 0 0 1rem; font-size: .96rem; }
+
+/* CTA */
+.cta { background: linear-gradient(135deg, var(--orange) 0%, var(--orange-2) 100%); color: #fff; padding: clamp(3rem, 6vw, 4.5rem) 0; }
+.cta__inner { display: grid; grid-template-columns: 1.3fr .7fr; gap: 2.5rem; align-items: center; }
+.cta h2 { color: #fff; }
+.cta__text p { color: rgba(255,255,255,.92); max-width: 46ch; }
+.cta__actions { display: flex; gap: .8rem; flex-wrap: wrap; margin-top: 1.4rem; }
+.cta .btn--accent { background: var(--navy); box-shadow: 0 10px 26px rgba(12,38,72,.3); }
+.cta .btn--accent:hover { background: var(--navy-2); }
+.cta .btn--ghost { border-color: rgba(255,255,255,.7); }
+.cta__info { list-style: none; margin: 0; padding: 1.5rem; background: rgba(255,255,255,.14); border: 1px solid rgba(255,255,255,.25); border-radius: var(--radius-lg); display: grid; gap: 1rem; backdrop-filter: blur(6px); }
+.cta__info li { display: grid; gap: .1rem; }
+.cta__info strong { font-family: var(--ff-head); font-size: .78rem; letter-spacing: .1em; text-transform: uppercase; opacity: .85; }
+.cta__info a, .cta__info span { color: #fff; font-size: 1.05rem; }
+
+/* Footer */
+.footer { background: var(--navy); color: #b9c5d8; }
+.footer__grid { display: grid; grid-template-columns: 1.5fr 1fr 1fr 1.3fr; gap: 2rem; padding: 3.5rem 0 2.5rem; }
+.footer__brand img { height: 40px; margin-bottom: 1rem; }
+.footer__brand p { font-size: .92rem; max-width: 30ch; }
+.footer__social { display: flex; gap: .5rem; margin-top: 1rem; }
+.footer__social a { display: grid; place-items: center; width: 36px; height: 36px; border-radius: 50%; background: rgba(255,255,255,.08); color: #dfe6f0; transition: background .2s, transform .2s; }
+.footer__social a:hover { background: var(--orange); color: #fff; transform: translateY(-2px); }
+.footer__col h4 { color: #fff; font-size: 1rem; margin-bottom: 1rem; }
+.footer__col a { display: block; color: #b9c5d8; font-size: .92rem; padding: .28rem 0; transition: color .2s; }
+.footer__col a:hover { color: var(--orange-2); }
+.footer__note { font-size: .88rem; }
+.footer__sub { display: flex; gap: .5rem; margin-top: .6rem; }
+.footer__sub input { flex: 1; min-width: 0; padding: .65rem .8rem; border-radius: 10px; border: 1px solid rgba(255,255,255,.18); background: rgba(255,255,255,.08); color: #fff; font: inherit; }
+.footer__sub input::placeholder { color: #8697b0; }
+.footer__sub input:focus { outline: 0; border-color: var(--cyan); }
+.footer__sub .btn { padding: .65rem 1rem; font-size: .85rem; }
+.footer__msg { font-size: .82rem; color: var(--cyan); min-height: 1.2em; margin: .5rem 0 0; }
+.footer__bar { border-top: 1px solid rgba(255,255,255,.1); }
+.footer__bar-inner { display: flex; justify-content: space-between; align-items: center; gap: 1rem; padding: 1.2rem 0; font-size: .84rem; flex-wrap: wrap; }
+.footer__bar nav { display: flex; gap: 1.2rem; }
+.footer__bar a:hover { color: var(--orange-2); }
+
+/* WhatsApp float */
+.whatsapp-float { position: fixed; right: 20px; bottom: 20px; z-index: 60; width: 56px; height: 56px; border-radius: 50%; background: #25d366; color: #fff; display: grid; place-items: center; box-shadow: 0 12px 30px rgba(37,211,102,.45); transition: transform .2s; }
+.whatsapp-float:hover { transform: scale(1.08); }
+.whatsapp-float svg { width: 32px; height: 32px; }
+
+/* ---------- Page banner (páginas internas) ---------- */
+.page-hero { position: relative; color: #fff; background: var(--navy); overflow: hidden; padding: clamp(2.6rem, 6vw, 4.2rem) 0; text-align: center; }
+.page-hero__bg { position: absolute; inset: 0; background:
+    radial-gradient(60% 90% at 80% 10%, rgba(56,172,198,.32), transparent 60%),
+    radial-gradient(50% 80% at 15% 100%, rgba(250,90,40,.26), transparent 60%),
+    linear-gradient(160deg, #0c2648, #14233d 70%, #0c2648); }
+.page-hero__inner { position: relative; }
+.page-hero h1 { color: #fff; margin-bottom: .5rem; }
+.page-hero p { color: #c6d2e4; max-width: 60ch; margin: 0 auto; }
+.breadcrumb { display: flex; gap: .5rem; justify-content: center; align-items: center; font-size: .85rem; color: #9fb0c8; margin-bottom: 1rem; }
+.breadcrumb a { color: #c6d2e4; }
+.breadcrumb a:hover { color: var(--orange-2); }
+.breadcrumb span { opacity: .6; }
+
+/* Servicio detallado (fila) */
+.svc-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.4rem; }
+.svc-detail { padding: 2rem 1.7rem; }
+.svc-detail .service__ico { width: 66px; height: 66px; font-size: 2.2rem; }
+.svc-detail h3 { font-size: 1.35rem; }
+.svc-detail ul { list-style: none; margin: 1rem 0 0; padding: 0; display: grid; gap: .5rem; }
+.svc-detail li { position: relative; padding-left: 1.6rem; color: var(--muted); font-size: .93rem; }
+.svc-detail li::before { content: "✓"; position: absolute; left: 0; color: var(--cyan); font-weight: 800; }
+
+/* Contacto */
+.contact { display: grid; grid-template-columns: 1fr 1fr; gap: 2.5rem; align-items: start; }
+.contact__form { display: grid; gap: 1rem; }
+.contact__row { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+.contact textarea { min-height: 130px; resize: vertical; }
+.contact__aside { display: grid; gap: 1rem; }
+.contact__card { padding: 1.5rem; display: flex; gap: 1rem; align-items: flex-start; }
+.contact__card .ico-box { width: 46px; height: 46px; flex: none; display: grid; place-items: center; border-radius: 12px; background: linear-gradient(135deg, rgba(56,172,198,.16), rgba(250,90,40,.14)); font-size: 1.3rem; }
+.contact__card h4 { margin: 0 0 .2rem; font-size: 1rem; }
+.contact__card p, .contact__card a { margin: 0; color: var(--muted); font-size: .95rem; }
+.contact__card a:hover { color: var(--orange); }
+.contact__map { border: 0; width: 100%; height: 260px; border-radius: var(--radius-lg) var(--radius-lg) 0 0; box-shadow: var(--shadow-sm); background: linear-gradient(135deg, #14233d, #0c2648); display: block; }
+.contact__mapwrap { border-radius: var(--radius-lg); overflow: hidden; box-shadow: var(--shadow-sm); border: 1px solid var(--line); }
+.contact__maplink { display: flex; align-items: center; justify-content: center; gap: .5rem; padding: .85rem; background: #fff; font-family: var(--ff-head); font-weight: 600; font-size: .9rem; color: var(--navy); }
+.contact__maplink:hover { background: var(--bg-alt); color: var(--orange); }
+.form-msg { font-size: .9rem; color: var(--teal); min-height: 1.2em; }
+
+/* Reveal animation */
+[data-reveal] { opacity: 0; transform: translateY(24px); transition: opacity .6s ease, transform .6s ease; }
+[data-reveal].is-visible { opacity: 1; transform: none; }
+
+/* ---------- Responsive ---------- */
+@media (max-width: 980px) {
+  .hero__inner { grid-template-columns: 1fr; gap: 2.4rem; }
+  .quote { max-width: 460px; }
+  .grid--services, .grid--4 { grid-template-columns: repeat(2, 1fr); }
+  .about { grid-template-columns: 1fr; gap: 2rem; }
+  .footer__grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 820px) {
+  .nav {
+    position: fixed; inset: 0 0 0 auto; width: min(78vw, 320px);
+    flex-direction: column; align-items: flex-start; gap: 1.2rem;
+    background: var(--navy-2); padding: 6rem 1.8rem 2rem;
+    transform: translateX(100%); transition: transform .3s ease; box-shadow: var(--shadow-lg);
+  }
+  .nav.is-open { transform: none; }
+  .nav > a { font-size: 1.1rem; }
+  .nav__cta { margin-top: .5rem; }
+  .nav__toggle { display: flex; z-index: 60; }
+  .topbar__addr { display: none; }
+}
+
+@media (max-width: 620px) {
+  .stats__grid { grid-template-columns: repeat(2, 1fr); gap: 1.4rem; }
+  .grid--services, .grid--3, .grid--4 { grid-template-columns: 1fr; }
+  .steps { grid-template-columns: 1fr; gap: 2.2rem; }
+  .plan--popular { transform: none; }
+  .cta__inner { grid-template-columns: 1fr; }
+  .footer__grid { grid-template-columns: 1fr; }
+  .footer__bar-inner { flex-direction: column; text-align: center; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * { scroll-behavior: auto !important; }
+  [data-reveal] { opacity: 1 !important; transform: none !important; transition: none; }
+}
+
+</style>
+</head>
+<body>
+
+  <!-- ===== Top bar ===== -->
+  <div class="topbar">
+    <div class="container topbar__inner">
+      <div class="topbar__contact">
+        <a href="tel:+17865617158" aria-label="Llamar a Tropicargo">
+          <svg viewBox="0 0 24 24" class="ico" aria-hidden="true"><path d="M6.6 10.8a15.5 15.5 0 006.6 6.6l2.2-2.2a1 1 0 011-.24 11.4 11.4 0 003.6.58 1 1 0 011 1V20a1 1 0 01-1 1A17 17 0 013 4a1 1 0 011-1h3.5a1 1 0 011 1 11.4 11.4 0 00.58 3.6 1 1 0 01-.24 1l-2.24 2.2z"/></svg>
+          +1 (786) 561-7158
+        </a>
+        <span class="topbar__addr">
+          <svg viewBox="0 0 24 24" class="ico" aria-hidden="true"><path d="M12 2a7 7 0 00-7 7c0 5 7 13 7 13s7-8 7-13a7 7 0 00-7-7zm0 9.5A2.5 2.5 0 1112 6a2.5 2.5 0 010 5.5z"/></svg>
+          3132 NW 72nd Ave, Doral, FL 33122
+        </span>
+      </div>
+      <div class="topbar__social" aria-label="Redes sociales">
+        <a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 24 24" class="ico" aria-hidden="true"><path d="M13 22v-8h2.7l.4-3H13V9.1c0-.9.3-1.5 1.6-1.5H16V4.9c-.3 0-1.2-.1-2.3-.1-2.3 0-3.9 1.4-3.9 4v2.2H7v3h2.8v8H13z"/></svg></a>
+        <a href="https://instagram.com/tropicargo_express" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24" class="ico" aria-hidden="true"><path d="M12 2.2c3.2 0 3.6 0 4.9.1 1.2.1 1.8.3 2.2.4.6.2 1 .5 1.4.9.4.4.7.8.9 1.4.2.5.4 1.1.4 2.2.1 1.3.1 1.7.1 4.9s0 3.6-.1 4.9c-.1 1.2-.3 1.8-.4 2.2-.2.6-.5 1-.9 1.4-.4.4-.8.7-1.4.9-.5.2-1.1.4-2.2.4-1.3.1-1.7.1-4.9.1s-3.6 0-4.9-.1c-1.2-.1-1.8-.3-2.2-.4-.6-.2-1-.5-1.4-.9-.4-.4-.7-.8-.9-1.4-.2-.5-.4-1.1-.4-2.2C2.2 15.6 2.2 15.2 2.2 12s0-3.6.1-4.9c.1-1.2.3-1.8.4-2.2.2-.6.5-1 .9-1.4.4-.4.8-.7 1.4-.9.5-.2 1.1-.4 2.2-.4C8.4 2.2 8.8 2.2 12 2.2zm0 3.1A6.7 6.7 0 1018.7 12 6.7 6.7 0 0012 5.3zm0 11a4.3 4.3 0 114.3-4.3 4.3 4.3 0 01-4.3 4.3zm6.9-11.3a1.6 1.6 0 10-1.6 1.6 1.6 1.6 0 001.6-1.6z"/></svg></a>
+        <a href="https://tiktok.com/@tropicargo_express" target="_blank" rel="noopener" aria-label="TikTok"><svg viewBox="0 0 24 24" class="ico" aria-hidden="true"><path d="M16.6 5.8a4.3 4.3 0 01-1-2.8h-3v12.2a2.5 2.5 0 11-1.8-2.4V9.7a5.5 5.5 0 105.4 5.5V9.4a7 7 0 004.1 1.3V7.6a4.3 4.3 0 01-2.7-1.8z"/></svg></a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== Header ===== -->
+  <header class="header" id="top">
+    <div class="container header__inner">
+      <a href="#top" class="brand" aria-label="Tropicargo inicio">
+        <img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyBpZD0iQ2FwYV8xIiBkYXRhLW5hbWU9IkNhcGEgMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2aWV3Qm94PSIwIDAgMjQ3LjQ4IDgyLjA4Ij4KICA8ZGVmcz4KICAgIDxzdHlsZT4KICAgICAgLmNscy0xIHsKICAgICAgICBmaWxsOiAjZWRhMTNiOwogICAgICB9CgogICAgICAuY2xzLTIgewogICAgICAgIGZpbGw6ICMzOGFjYzY7CiAgICAgIH0KCiAgICAgIC5jbHMtMyB7CiAgICAgICAgZmlsbDogI2ZmZmZmZjsKICAgICAgfQoKICAgICAgLmNscy00IHsKICAgICAgICBmaWxsOiAjMjg4MzhjOwogICAgICB9CiAgICA8L3N0eWxlPgogIDwvZGVmcz4KICA8Zz4KICAgIDxwYXRoIGNsYXNzPSJjbHMtMyIgZD0iTTEwNC42MiwwbC0zLjMxLDEyLjg5aDE2LjI1bC0xLjk1LDcuNTgtLjA0LjEzLTMsMTEuNjYtLjA2LjI0LTEuMDksNC4yNS0xLjcsNi41OSwxNi44Mi03LjU3LjU3LTIuNC40OC0xLjg4LDEuNzctNi44Ni45Mi0zLjU2LjI3LTEuMDYsMS4xMi00LjM2LjcxLTIuNzdoMTYuNDFzMy4zMS0xMi44OSwzLjMxLTEyLjg5aC00Ny40OVoiLz4KICAgIDxwb2x5Z29uIGNsYXNzPSJjbHMtMSIgcG9pbnRzPSIxNDguNjkgMTIuODkgMTQ0LjggMjguMDEgMTI2LjU1IDM1Ljc3IDEzMC4zNyAyMC43NiAxNDguNjkgMTIuODkiLz4KICAgIDxwb2x5Z29uIGNsYXNzPSJjbHMtNCIgcG9pbnRzPSIxMTcuNTYgMTIuODkgMTEzLjcxIDI3LjkyIDk1LjM2IDM1LjkzIDk5LjMxIDIwLjU5IDExNy41NiAxMi44OSIvPgogICAgPHBvbHlnb24gY2xhc3M9ImNscy0yIiBwb2ludHM9IjEzMC4zNyAyMC43NiAxMjYuNTUgMzUuNzcgMTA5LjczIDQzLjM1IDExMy42OSAyNy45NyAxMzAuMzcgMjAuNzYiLz4KICA8L2c+CiAgPGc+CiAgICA8cGF0aCBjbGFzcz0iY2xzLTMiIGQ9Ik0wLDUyLjMzdjYuNTVoNy4wNHYyMi44N2g2LjYzdi0yMi44N2g3LjA4di02LjU1SDBaIi8+CiAgICA8cGF0aCBjbGFzcz0iY2xzLTMiIGQ9Ik0zNy4yOSw2OS4yN2MxLjY5LS42NiwzLjA1LTEuNzMsNC4xLTMuMjEsMS4wNS0xLjQ4LDEuNTctMy4xNCwxLjU3LTQuOTksMC0yLjQxLS44Ni00LjQ2LTIuNTctNi4xNy0xLjcyLTEuNzItMy43Ny0yLjU3LTYuMTctMi41N2gtMTEuMXYyOS40Mmg2LjYzdi0xMS45M2guMDlsOS4xMSwxMS45M2g3LjkxbC05LjU3LTEyLjQ3Wk0zNS42Nyw2My4zOWMtLjU4LjU1LTEuMzEuODMtMi4yLjgzaC0zLjczdi01Ljg0aDMuNzNjLjg4LDAsMS42MS4yOCwyLjIuODUuNTguNTcuODcsMS4yNi44NywyLjA5cy0uMjksMS41Mi0uODcsMi4wOFoiLz4KICAgIDxwYXRoIGNsYXNzPSJjbHMtMyIgZD0iTTcxLjE2LDU2LjQxYy0yLjk0LTIuOTQtNi40OS00LjQxLTEwLjYzLTQuNDFzLTcuNjksMS40Ny0xMC42Myw0LjQxYy0yLjk0LDIuOTUtNC40MSw2LjQ5LTQuNDEsMTAuNjNzMS40Nyw3LjY5LDQuNDEsMTAuNjNjMi45NCwyLjk0LDYuNDksNC40MSwxMC42Myw0LjQxczcuNjktMS40NywxMC42My00LjQxYzIuOTQtMi45NSw0LjQxLTYuNDksNC40MS0xMC42M3MtMS40Ny03LjY4LTQuNDEtMTAuNjNaTTY2LjUsNzMuMTdjLTEuNiwxLjY5LTMuNTksMi41My01Ljk3LDIuNTNzLTQuMzctLjg0LTUuOTctMi41M2MtMS42LTEuNjktMi40LTMuNzMtMi40LTYuMTRzLjgtNC40NCwyLjQtNi4xM2MxLjYtMS42OCwzLjU5LTIuNTMsNS45Ny0yLjUzczQuMzYuODUsNS45NywyLjUzYzEuNiwxLjY5LDIuNCwzLjczLDIuNCw2LjEzcy0uOCw0LjQ1LTIuNCw2LjE0WiIvPgogICAgPHBhdGggY2xhc3M9ImNscy0zIiBkPSJNOTUuNDYsNTUuMjNjLTEuOTQtMS45NC00LjMyLTIuOS03LjE3LTIuOWgtOS43djI5LjQyaDYuNjN2LTkuNDVoMy4wN2MyLjg0LDAsNS4yMy0uOTcsNy4xNy0yLjksMS45My0xLjkzLDIuOS00LjMsMi45LTcuMDlzLS45Ny01LjE1LTIuOS03LjA4Wk05MC44Niw2NC45OWMtLjcyLjc2LTEuNiwxLjE0LTIuNjUsMS4xNGgtMi45OHYtNy41OGgyLjk4YzEuMDUsMCwxLjkzLjM3LDIuNjUsMS4xMS43Mi43NSwxLjA4LDEuNjMsMS4wOCwyLjY1cy0uMzYsMS45Mi0xLjA4LDIuNjhaIi8+CiAgICA8cGF0aCBjbGFzcz0iY2xzLTMiIGQ9Ik0xMDAuOTMsNTIuMzN2MjkuNDJoNi42M3YtMjkuNDJoLTYuNjNaIi8+CiAgICA8cGF0aCBjbGFzcz0iY2xzLTMiIGQ9Ik0xMjkuODUsNzQuNThjLTEuMjcuNzQtMi42OCwxLjEyLTQuMjIsMS4xMi0yLjM4LDAtNC4zNy0uODQtNS45Ny0yLjUzLTEuNi0xLjY5LTIuNC0zLjczLTIuNC02LjE0cy44LTQuNDQsMi40LTYuMTNjMS42LTEuNjgsMy41OS0yLjUzLDUuOTctMi41MywxLjU1LDAsMi45NS4zNyw0LjIyLDEuMTIsMS4yNy43NCwyLjI5LDEuNzQsMy4wNywyLjk4bDUuMDEtNC4xYy0xLjQxLTEuOTYtMy4xOS0zLjUxLTUuMzUtNC42Ni0yLjE1LTEuMTUtNC40Ny0xLjcyLTYuOTYtMS43Mi00LjE1LDAtNy42OSwxLjQ3LTEwLjYzLDQuNDEtMi45NSwyLjk1LTQuNDIsNi40OS00LjQyLDEwLjYzczEuNDcsNy42OSw0LjQyLDEwLjYzYzIuOTQsMi45NCw2LjQ4LDQuNDEsMTAuNjMsNC40MSwyLjQ4LDAsNC44LS41Nyw2Ljk2LTEuNzIsMi4xNi0xLjE0LDMuOTQtMi43LDUuMzUtNC42NmwtNS4wMS00LjFjLS43OCwxLjI0LTEuOCwyLjI0LTMuMDcsMi45OFoiLz4KICAgIDxwYXRoIGNsYXNzPSJjbHMtMyIgZD0iTTE1MC40OCw1MmwtMTQuNSwyOS43NWg2Ljk2bDEuODYtMy45M2gwbDIuODMtNi4wMS40Mi0uODgsMi40NC01LjIsMi44Niw2LjA5aC0yLjY0bC0yLjQ0LDUuMzloNy42MWwyLjE1LDQuNTZoNi45NmwtMTQuNS0yOS43NVoiLz4KICAgIDxwYXRoIGNsYXNzPSJjbHMtMyIgZD0iTTE4MC4wMyw2OS4yN2MxLjY4LS42NiwzLjA1LTEuNzMsNC4xLTMuMjEsMS4wNS0xLjQ4LDEuNTgtMy4xNCwxLjU4LTQuOTksMC0yLjQxLS44Ni00LjQ2LTIuNTctNi4xNy0xLjcxLTEuNzItMy43Ny0yLjU3LTYuMTctMi41N2gtMTEuMTF2MjkuNDJoNi42M3YtMTEuOTNoLjA4bDkuMTIsMTEuOTNoNy45MWwtOS41Ny0xMi40N1pNMTc4LjQxLDYzLjM5Yy0uNTguNTUtMS4zMS44My0yLjIuODNoLTMuNzN2LTUuODRoMy43M2MuODgsMCwxLjYyLjI4LDIuMi44NS41OC41Ny44NywxLjI2Ljg3LDIuMDlzLS4yOSwxLjUyLS44NywyLjA4WiIvPgogICAgPHBhdGggY2xhc3M9ImNscy0zIiBkPSJNMjA0LjY4LDYzLjkzbC0yLjgyLDYuMjFoNy4wOXY0LjFjLTEuMzUuOTctMy4yNCwxLjQ1LTUuNjcsMS40NXMtNC4zNy0uODQtNS45Ny0yLjUzYy0xLjYtMS42OS0yLjQtMy43My0yLjQtNi4xNHMuOC00LjQ0LDIuNC02LjEzYzEuNi0xLjY4LDMuNTktMi41Myw1Ljk3LTIuNTMsMS41NSwwLDIuODUuMjUsMy45Mi43NywxLjA2LjUxLDIuMDUsMS4zNSwyLjk2LDIuNWw1LjAyLTQuMWMtMy4wMS0zLjctNi45OC01LjU1LTExLjg5LTUuNTUtNC4xNSwwLTcuNjksMS40Ny0xMC42Myw0LjQxLTIuOTUsMi45NS00LjQyLDYuNDktNC40MiwxMC42M3MxLjQ3LDcuNjksNC40MiwxMC42M2MyLjk0LDIuOTQsNi40OCw0LjQxLDEwLjYzLDQuNDEsNS4yMiwwLDkuMjUtMS42LDEyLjEtNC44di0xMy4zNGgtMTAuNjlaIi8+CiAgICA8cGF0aCBjbGFzcz0iY2xzLTMiIGQ9Ik0yNDMuMDcsNTYuNDFjLTIuOTUtMi45NC02LjQ5LTQuNDEtMTAuNjMtNC40MXMtNy42OSwxLjQ3LTEwLjYzLDQuNDFjLTIuOTUsMi45NS00LjQyLDYuNDktNC40MiwxMC42M3MxLjQ3LDcuNjksNC40MiwxMC42M2MyLjk0LDIuOTQsNi40OCw0LjQxLDEwLjYzLDQuNDFzNy42OC0xLjQ3LDEwLjYzLTQuNDFjMi45NC0yLjk1LDQuNDEtNi40OSw0LjQxLTEwLjYzcy0xLjQ3LTcuNjgtNC40MS0xMC42M1pNMjM4LjQsNzMuMTdjLTEuNiwxLjY5LTMuNTksMi41My01Ljk2LDIuNTNzLTQuMzctLjg0LTUuOTctMi41M2MtMS42LTEuNjktMi40LTMuNzMtMi40LTYuMTRzLjgtNC40NCwyLjQtNi4xM2MxLjYtMS42OCwzLjU5LTIuNTMsNS45Ny0yLjUzczQuMzYuODUsNS45NiwyLjUzYzEuNiwxLjY5LDIuNDEsMy43MywyLjQxLDYuMTNzLS44LDQuNDUtMi40MSw2LjE0WiIvPgogIDwvZz4KPC9zdmc+" alt="Tropicargo" class="brand__logo" width="200" height="66">
+      </a>
+      <nav class="nav" id="nav" aria-label="Principal">
+        <a href="#top" class="active">Inicio</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#planes">Planes</a>
+        <a href="#nosotros">Quiénes somos</a>
+        <a href="#faq">FAQs</a>
+        <a href="#contacto" class="btn btn--accent nav__cta">Abrir mi casillero</a>
+      </nav>
+      <button class="nav__toggle" id="navToggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- ===== Hero ===== -->
+    <section class="hero">
+      <div class="hero__bg" aria-hidden="true"></div>
+      <div class="container hero__inner">
+        <div class="hero__content">
+          <span class="eyebrow">Empresa líder en logística Cuba ⇄ Mundo</span>
+          <h1>No solo movemos paquetes.<br><span class="grad">Conectamos personas y oportunidades.</span></h1>
+          <p class="hero__lead">Recibimos tus compras en Miami, las pesamos y las enviamos a Cuba de forma rápida y segura. Sin costo de almacenaje, con seguimiento en cada paso.</p>
+          <div class="hero__actions">
+            <a href="#contacto" class="btn btn--accent btn--lg">Regístrate gratis</a>
+            <a href="#envios" class="btn btn--ghost btn--lg">Ver tipos de envío</a>
+          </div>
+          <ul class="hero__points">
+            <li><svg viewBox="0 0 24 24" class="ico" aria-hidden="true"><path d="M9 16.2l-3.5-3.5L4 14.2 9 19.2 20 8.2l-1.4-1.4z"/></svg> Dirección personal en Miami</li>
+            <li><svg viewBox="0 0 24 24" class="ico" aria-hidden="true"><path d="M9 16.2l-3.5-3.5L4 14.2 9 19.2 20 8.2l-1.4-1.4z"/></svg> Sin cargos por almacenaje</li>
+            <li><svg viewBox="0 0 24 24" class="ico" aria-hidden="true"><path d="M9 16.2l-3.5-3.5L4 14.2 9 19.2 20 8.2l-1.4-1.4z"/></svg> Entrega a domicilio en toda Cuba</li>
+          </ul>
+        </div>
+
+        <!-- Cotizador rápido -->
+        <aside class="quote card" aria-label="Cotización rápida">
+          <h2 class="quote__title">Cotiza tu envío</h2>
+          <form class="quote__form" id="quoteForm" novalidate>
+            <label class="field">
+              <span>Tipo de envío</span>
+              <select id="qType">
+                <option value="express">Exprés · 48–72 h</option>
+                <option value="aereo" selected>Aéreo · 7–10 días</option>
+                <option value="maritimo">Marítimo · ~21 días</option>
+              </select>
+            </label>
+            <label class="field">
+              <span>Peso estimado (lb)</span>
+              <input id="qWeight" type="number" min="1" step="1" value="10" inputmode="numeric">
+            </label>
+            <label class="field">
+              <span>Provincia de destino</span>
+              <select id="qProv">
+                <option>La Habana</option><option>Artemisa</option><option>Mayabeque</option>
+                <option>Matanzas</option><option>Villa Clara</option><option>Cienfuegos</option>
+                <option>Sancti Spíritus</option><option>Ciego de Ávila</option><option>Camagüey</option>
+                <option>Las Tunas</option><option>Holguín</option><option>Granma</option>
+                <option>Santiago de Cuba</option><option>Guantánamo</option><option>Pinar del Río</option>
+                <option>Isla de la Juventud</option>
+              </select>
+            </label>
+            <div class="quote__result" id="qResult" aria-live="polite">
+              <span class="quote__label">Estimado desde</span>
+              <span class="quote__price" id="qPrice">$—</span>
+            </div>
+            <a href="#contacto" class="btn btn--accent btn--block">Haz tu pedido</a>
+            <p class="quote__note">*Estimación orientativa. La cotización final se calcula al recibir y pesar el paquete.</p>
+          </form>
+        </aside>
+      </div>
+    </section>
+
+    <!-- ===== Stats ===== -->
+    <section class="stats">
+      <div class="container stats__grid">
+        <div class="stat"><span class="stat__num" data-count="3500" data-suffix="+">0</span><span class="stat__label">Pedidos gestionados al año</span></div>
+        <div class="stat"><span class="stat__num" data-count="24" data-suffix="/7">0</span><span class="stat__label">Soporte al cliente</span></div>
+        <div class="stat"><span class="stat__num" data-count="100" data-suffix="%">0</span><span class="stat__label">Inspección de calidad por paquete</span></div>
+        <div class="stat"><span class="stat__num" data-count="16" data-suffix="">0</span><span class="stat__label">Provincias de Cuba cubiertas</span></div>
+      </div>
+    </section>
+
+    <!-- ===== Servicios ===== -->
+    <section class="section" id="servicios">
+      <div class="container">
+        <header class="section__head">
+          <span class="eyebrow eyebrow--dark">Servicios</span>
+          <h2>Soluciones logísticas seguras y rápidas entre EE. UU. y el mundo</h2>
+          <p>¿Compraste en Amazon, Shein o cualquier tienda de Estados Unidos? Tropicargo lo recibe por ti y lo hace llegar a Cuba.</p>
+        </header>
+
+        <div class="grid grid--services">
+          <article class="service card">
+            <div class="service__ico">📦</div>
+            <h3>Casillero Virtual</h3>
+            <p>Te asignamos una dirección personal en nuestras oficinas de Miami para recibir paquetes de cualquier proveedor de EE. UU.</p>
+          </article>
+          <article class="service card">
+            <div class="service__ico">🏬</div>
+            <h3>Almacenamiento y Envío</h3>
+            <p>Recibimos, pesamos y enviamos. Así de fácil. No cobramos por almacenaje: dejamos tu paquete listo en el menor tiempo posible.</p>
+          </article>
+          <article class="service card">
+            <div class="service__ico">🛒</div>
+            <h3>Compras Asistidas</h3>
+            <p>¿No tienes tarjeta o cuenta en EE. UU.? Compramos por ti en cualquier tienda y gestionamos el envío completo.</p>
+          </article>
+          <article class="service card">
+            <div class="service__ico">🚀</div>
+            <h3>Dropshipping</h3>
+            <p>Impulsa tu negocio: recibimos, almacenamos y despachamos los pedidos de tus clientes por ti, con calidad garantizada.</p>
+          </article>
+        </div>
+        <div style="text-align:center; margin-top:2.4rem;">
+          <a href="#servicios" class="btn btn--ghost">Ver todos los servicios</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Tipos de envío ===== -->
+    <section class="section section--alt" id="envios">
+      <div class="container">
+        <header class="section__head">
+          <span class="eyebrow eyebrow--dark">Tipos de envío</span>
+          <h2>Tres formas de llegar rápido, seguro y a tu medida</h2>
+          <p>Nos adaptamos a tus tiempos, tu presupuesto y el tipo de mercancía que necesitas mover.</p>
+        </header>
+
+        <div class="grid grid--3">
+          <article class="ship card">
+            <div class="ship__top"><span class="ship__badge ship__badge--express">Exprés</span><span class="ship__time">48–72 horas</span></div>
+            <div class="ship__ico">⚡</div>
+            <p>Entrega rápida, ideal para documentos o paquetes que necesitan llegar en el menor tiempo posible.</p>
+          </article>
+          <article class="ship card ship--featured">
+            <div class="ship__top"><span class="ship__badge ship__badge--air">Aéreo</span><span class="ship__time">7–10 días</span></div>
+            <div class="ship__ico">✈️</div>
+            <p>Ágil y seguro, ideal para cargas medianas con entrega a domicilio en La Habana, Artemisa, Mayabeque y el resto de provincias.</p>
+          </article>
+          <article class="ship card">
+            <div class="ship__top"><span class="ship__badge ship__badge--sea">Marítimo</span><span class="ship__time">~21 días*</span></div>
+            <div class="ship__ico">🚢</div>
+            <p>Perfecto para cargas pesadas o envíos sin prisa. Mayor cantidad, menor coste. *Desde la llegada a nuestro warehouse.</p>
+          </article>
+        </div>
+        <p class="section__foot">Ofrecemos tarifas preferenciales para clientes frecuentes y empresas.</p>
+      </div>
+    </section>
+
+    <!-- ===== Cómo funciona ===== -->
+    <section class="section" id="como">
+      <div class="container">
+        <header class="section__head">
+          <span class="eyebrow eyebrow--dark">Cómo funciona</span>
+          <h2>Recibimos, pesamos y enviamos. Así de fácil.</h2>
+        </header>
+        <ol class="steps">
+          <li class="step">
+            <span class="step__num">1</span>
+            <h3>Regístrate y obtén tu dirección</h3>
+            <p>Creas tu cuenta gratis y recibes tu casillero personal en Miami para comprar en cualquier tienda de EE. UU.</p>
+          </li>
+          <li class="step">
+            <span class="step__num">2</span>
+            <h3>Recibimos y cotizamos</h3>
+            <p>Apenas llega tu paquete lo pesamos y medimos, y te enviamos la cotización sin costo de almacenaje.</p>
+          </li>
+          <li class="step">
+            <span class="step__num">3</span>
+            <h3>Enviamos a Cuba</h3>
+            <p>Eliges exprés, aéreo o marítimo y lo entregamos seguro a domicilio en toda Cuba.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ===== Planes ===== -->
+    <section class="section section--dark" id="planes">
+      <div class="container">
+        <header class="section__head section__head--light">
+          <span class="eyebrow">Planes</span>
+          <h2>Elige el plan que se ajusta a tu ritmo de compras</h2>
+          <p>Membresías pensadas para compradores ocasionales, frecuentes y negocios en crecimiento.</p>
+        </header>
+
+        <div class="grid grid--4 plans">
+          <article class="plan card">
+            <h3 class="plan__name">Beginner</h3>
+            <div class="plan__price"><span>$</span>29<small>.90</small></div>
+            <ul class="plan__list">
+              <li>Casillero virtual en Miami</li>
+              <li>Recepción de paquetes</li>
+              <li>Cotización sin almacenaje</li>
+              <li>Soporte por chat</li>
+            </ul>
+            <a href="#contacto" class="btn btn--ghost btn--block">Empezar</a>
+          </article>
+          <article class="plan card plan--popular">
+            <span class="plan__tag">Más popular</span>
+            <h3 class="plan__name">Intermediate</h3>
+            <div class="plan__price"><span>$</span>49<small>.90</small></div>
+            <ul class="plan__list">
+              <li>Todo lo de Beginner</li>
+              <li>Compras asistidas</li>
+              <li>Prioridad en el procesamiento</li>
+              <li>Tarifas preferenciales</li>
+            </ul>
+            <a href="#contacto" class="btn btn--accent btn--block">Elegir plan</a>
+          </article>
+          <article class="plan card">
+            <h3 class="plan__name">Advance</h3>
+            <div class="plan__price"><span>$</span>69<small>.90</small></div>
+            <ul class="plan__list">
+              <li>Todo lo de Intermediate</li>
+              <li>Consolidación de paquetes</li>
+              <li>Inspección de calidad ampliada</li>
+              <li>Soporte prioritario</li>
+            </ul>
+            <a href="#contacto" class="btn btn--ghost btn--block">Empezar</a>
+          </article>
+          <article class="plan card">
+            <h3 class="plan__name">Pro</h3>
+            <div class="plan__price"><span>$</span>129<small>.90</small></div>
+            <ul class="plan__list">
+              <li>Ideal para negocios</li>
+              <li>Dropshipping completo</li>
+              <li>Gestor de cuenta dedicado</li>
+              <li>Tarifas de empresa</li>
+            </ul>
+            <a href="#contacto" class="btn btn--ghost btn--block">Hablar con ventas</a>
+          </article>
+        </div>
+        <div style="text-align:center; margin-top:2.4rem;">
+          <a href="#planes" class="btn btn--accent">Ver todos los planes</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Nosotros ===== -->
+    <section class="section" id="nosotros">
+      <div class="container about">
+        <div class="about__media" aria-hidden="true">
+          <div class="about__badge">
+            <img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyBpZD0iQ2FwYV8xIiBkYXRhLW5hbWU9IkNhcGEgMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2aWV3Qm94PSIwIDAgMjQ3LjQ4IDgyLjA4Ij4KICA8ZGVmcz4KICAgIDxzdHlsZT4KICAgICAgLmNscy0xIHsKICAgICAgICBmaWxsOiAjZWRhMTNiOwogICAgICB9CgogICAgICAuY2xzLTIgewogICAgICAgIGZpbGw6ICMzOGFjYzY7CiAgICAgIH0KCiAgICAgIC5jbHMtMyB7CiAgICAgICAgZmlsbDogIzBjMjY0ODsKICAgICAgfQoKICAgICAgLmNscy00IHsKICAgICAgICBmaWxsOiAjMjg4MzhjOwogICAgICB9CiAgICA8L3N0eWxlPgogIDwvZGVmcz4KICA8Zz4KICAgIDxwYXRoIGNsYXNzPSJjbHMtMyIgZD0iTTEwNC42MiwwbC0zLjMxLDEyLjg5aDE2LjI1bC0xLjk1LDcuNTgtLjA0LjEzLTMsMTEuNjYtLjA2LjI0LTEuMDksNC4yNS0xLjcsNi41OSwxNi44Mi03LjU3LjU3LTIuNC40OC0xLjg4LDEuNzctNi44Ni45Mi0zLjU2LjI3LTEuMDYsMS4xMi00LjM2LjcxLTIuNzdoMTYuNDFzMy4zMS0xMi44OSwzLjMxLTEyLjg5aC00Ny40OVoiLz4KICAgIDxwb2x5Z29uIGNsYXNzPSJjbHMtMSIgcG9pbnRzPSIxNDguNjkgMTIuODkgMTQ0LjggMjguMDEgMTI2LjU1IDM1Ljc3IDEzMC4zNyAyMC43NiAxNDguNjkgMTIuODkiLz4KICAgIDxwb2x5Z29uIGNsYXNzPSJjbHMtNCIgcG9pbnRzPSIxMTcuNTYgMTIuODkgMTEzLjcxIDI3LjkyIDk1LjM2IDM1LjkzIDk5LjMxIDIwLjU5IDExNy41NiAxMi44OSIvPgogICAgPHBvbHlnb24gY2xhc3M9ImNscy0yIiBwb2ludHM9IjEzMC4zNyAyMC43NiAxMjYuNTUgMzUuNzcgMTA5LjczIDQzLjM1IDExMy42OSAyNy45NyAxMzAuMzcgMjAuNzYiLz4KICA8L2c+CiAgPGc+CiAgICA8cGF0aCBjbGFzcz0iY2xzLTMiIGQ9Ik0wLDUyLjMzdjYuNTVoNy4wNHYyMi44N2g2LjYzdi0yMi44N2g3LjA4di02LjU1SDBaIi8+CiAgICA8cGF0aCBjbGFzcz0iY2xzLTMiIGQ9Ik0zNy4yOSw2OS4yN2MxLjY5LS42NiwzLjA1LTEuNzMsNC4xLTMuMjEsMS4wNS0xLjQ4LDEuNTctMy4xNCwxLjU3LTQuOTksMC0yLjQxLS44Ni00LjQ2LTIuNTctNi4xNy0xLjcyLTEuNzItMy43Ny0yLjU3LTYuMTctMi41N2gtMTEuMXYyOS40Mmg2LjYzdi0xMS45M2guMDlsOS4xMSwxMS45M2g3LjkxbC05LjU3LTEyLjQ3Wk0zNS42Nyw2My4zOWMtLjU4LjU1LTEuMzEuODMtMi4yLjgzaC0zLjczdi01Ljg0aDMuNzNjLjg4LDAsMS42MS4yOCwyLjIuODUuNTguNTcuODcsMS4yNi44NywyLjA5cy0uMjksMS41Mi0uODcsMi4wOFoiLz4KICAgIDxwYXRoIGNsYXNzPSJjbHMtMyIgZD0iTTcxLjE2LDU2LjQxYy0yLjk0LTIuOTQtNi40OS00LjQxLTEwLjYzLTQuNDFzLTcuNjksMS40Ny0xMC42Myw0LjQxYy0yLjk0LDIuOTUtNC40MSw2LjQ5LTQuNDEsMTAuNjNzMS40Nyw3LjY5LDQuNDEsMTAuNjNjMi45NCwyLjk0LDYuNDksNC40MSwxMC42Myw0LjQxczcuNjktMS40NywxMC42My00LjQxYzIuOTQtMi45NSw0LjQxLTYuNDksNC40MS0xMC42M3MtMS40Ny03LjY4LTQuNDEtMTAuNjNaTTY2LjUsNzMuMTdjLTEuNiwxLjY5LTMuNTksMi41My01Ljk3LDIuNTNzLTQuMzctLjg0LTUuOTctMi41M2MtMS42LTEuNjktMi40LTMuNzMtMi40LTYuMTRzLjgtNC40NCwyLjQtNi4xM2MxLjYtMS42OCwzLjU5LTIuNTMsNS45Ny0yLjUzczQuMzYuODUsNS45NywyLjUzYzEuNiwxLjY5LDIuNCwzLjczLDIuNCw2LjEzcy0uOCw0LjQ1LTIuNCw2LjE0WiIvPgogICAgPHBhdGggY2xhc3M9ImNscy0zIiBkPSJNOTUuNDYsNTUuMjNjLTEuOTQtMS45NC00LjMyLTIuOS03LjE3LTIuOWgtOS43djI5LjQyaDYuNjN2LTkuNDVoMy4wN2MyLjg0LDAsNS4yMy0uOTcsNy4xNy0yLjksMS45My0xLjkzLDIuOS00LjMsMi45LTcuMDlzLS45Ny01LjE1LTIuOS03LjA4Wk05MC44Niw2NC45OWMtLjcyLjc2LTEuNiwxLjE0LTIuNjUsMS4xNGgtMi45OHYtNy41OGgyLjk4YzEuMDUsMCwxLjkzLjM3LDIuNjUsMS4xMS43Mi43NSwxLjA4LDEuNjMsMS4wOCwyLjY1cy0uMzYsMS45Mi0xLjA4LDIuNjhaIi8+CiAgICA8cGF0aCBjbGFzcz0iY2xzLTMiIGQ9Ik0xMDAuOTMsNTIuMzN2MjkuNDJoNi42M3YtMjkuNDJoLTYuNjNaIi8+CiAgICA8cGF0aCBjbGFzcz0iY2xzLTMiIGQ9Ik0xMjkuODUsNzQuNThjLTEuMjcuNzQtMi42OCwxLjEyLTQuMjIsMS4xMi0yLjM4LDAtNC4zNy0uODQtNS45Ny0yLjUzLTEuNi0xLjY5LTIuNC0zLjczLTIuNC02LjE0cy44LTQuNDQsMi40LTYuMTNjMS42LTEuNjgsMy41OS0yLjUzLDUuOTctMi41MywxLjU1LDAsMi45NS4zNyw0LjIyLDEuMTIsMS4yNy43NCwyLjI5LDEuNzQsMy4wNywyLjk4bDUuMDEtNC4xYy0xLjQxLTEuOTYtMy4xOS0zLjUxLTUuMzUtNC42Ni0yLjE1LTEuMTUtNC40Ny0xLjcyLTYuOTYtMS43Mi00LjE1LDAtNy42OSwxLjQ3LTEwLjYzLDQuNDEtMi45NSwyLjk1LTQuNDIsNi40OS00LjQyLDEwLjYzczEuNDcsNy42OSw0LjQyLDEwLjYzYzIuOTQsMi45NCw2LjQ4LDQuNDEsMTAuNjMsNC40MSwyLjQ4LDAsNC44LS41Nyw2Ljk2LTEuNzIsMi4xNi0xLjE0LDMuOTQtMi43LDUuMzUtNC42NmwtNS4wMS00LjFjLS43OCwxLjI0LTEuOCwyLjI0LTMuMDcsMi45OFoiLz4KICAgIDxwYXRoIGNsYXNzPSJjbHMtMyIgZD0iTTE1MC40OCw1MmwtMTQuNSwyOS43NWg2Ljk2bDEuODYtMy45M2gwbDIuODMtNi4wMS40Mi0uODgsMi40NC01LjIsMi44Niw2LjA5aC0yLjY0bC0yLjQ0LDUuMzloNy42MWwyLjE1LDQuNTZoNi45NmwtMTQuNS0yOS43NVoiLz4KICAgIDxwYXRoIGNsYXNzPSJjbHMtMyIgZD0iTTE4MC4wMyw2OS4yN2MxLjY4LS42NiwzLjA1LTEuNzMsNC4xLTMuMjEsMS4wNS0xLjQ4LDEuNTgtMy4xNCwxLjU4LTQuOTksMC0yLjQxLS44Ni00LjQ2LTIuNTctNi4xNy0xLjcxLTEuNzItMy43Ny0yLjU3LTYuMTctMi41N2gtMTEuMTF2MjkuNDJoNi42M3YtMTEuOTNoLjA4bDkuMTIsMTEuOTNoNy45MWwtOS41Ny0xMi40N1pNMTc4LjQxLDYzLjM5Yy0uNTguNTUtMS4zMS44My0yLjIuODNoLTMuNzN2LTUuODRoMy43M2MuODgsMCwxLjYyLjI4LDIuMi44NS41OC41Ny44NywxLjI2Ljg3LDIuMDlzLS4yOSwxLjUyLS44NywyLjA4WiIvPgogICAgPHBhdGggY2xhc3M9ImNscy0zIiBkPSJNMjA0LjY4LDYzLjkzbC0yLjgyLDYuMjFoNy4wOXY0LjFjLTEuMzUuOTctMy4yNCwxLjQ1LTUuNjcsMS40NXMtNC4zNy0uODQtNS45Ny0yLjUzYy0xLjYtMS42OS0yLjQtMy43My0yLjQtNi4xNHMuOC00LjQ0LDIuNC02LjEzYzEuNi0xLjY4LDMuNTktMi41Myw1Ljk3LTIuNTMsMS41NSwwLDIuODUuMjUsMy45Mi43NywxLjA2LjUxLDIuMDUsMS4zNSwyLjk2LDIuNWw1LjAyLTQuMWMtMy4wMS0zLjctNi45OC01LjU1LTExLjg5LTUuNTUtNC4xNSwwLTcuNjksMS40Ny0xMC42Myw0LjQxLTIuOTUsMi45NS00LjQyLDYuNDktNC40MiwxMC42M3MxLjQ3LDcuNjksNC40MiwxMC42M2MyLjk0LDIuOTQsNi40OCw0LjQxLDEwLjYzLDQuNDEsNS4yMiwwLDkuMjUtMS42LDEyLjEtNC44di0xMy4zNGgtMTAuNjlaIi8+CiAgICA8cGF0aCBjbGFzcz0iY2xzLTMiIGQ9Ik0yNDMuMDcsNTYuNDFjLTIuOTUtMi45NC02LjQ5LTQuNDEtMTAuNjMtNC40MXMtNy42OSwxLjQ3LTEwLjYzLDQuNDFjLTIuOTUsMi45NS00LjQyLDYuNDktNC40MiwxMC42M3MxLjQ3LDcuNjksNC40MiwxMC42M2MyLjk0LDIuOTQsNi40OCw0LjQxLDEwLjYzLDQuNDFzNy42OC0xLjQ3LDEwLjYzLTQuNDFjMi45NC0yLjk1LDQuNDEtNi40OSw0LjQxLTEwLjYzcy0xLjQ3LTcuNjgtNC40MS0xMC42M1pNMjM4LjQsNzMuMTdjLTEuNiwxLjY5LTMuNTksMi41My01Ljk2LDIuNTNzLTQuMzctLjg0LTUuOTctMi41M2MtMS42LTEuNjktMi40LTMuNzMtMi40LTYuMTRzLjgtNC40NCwyLjQtNi4xM2MxLjYtMS42OCwzLjU5LTIuNTMsNS45Ny0yLjUzczQuMzYuODUsNS45NiwyLjUzYzEuNiwxLjY5LDIuNDEsMy43MywyLjQxLDYuMTNzLS44LDQuNDUtMi40MSw2LjE0WiIvPgogIDwvZz4KPC9zdmc+" alt="" width="220" height="73">
+          </div>
+        </div>
+        <div class="about__content">
+          <span class="eyebrow eyebrow--dark">Quiénes somos</span>
+          <h2>Conectamos Cuba con el mundo, un paquete a la vez</h2>
+          <p>En Tropicargo no solo movemos paquetes: conectamos personas, negocios y oportunidades entre Cuba y el mundo. Cada envío se gestiona con agilidad y cuidado, desde nuestras oficinas en Doral, Florida, hasta la puerta de tu casa en Cuba.</p>
+          <ul class="about__list">
+            <li><strong>Agilidad real:</strong> pesamos y cotizamos apenas llega tu paquete.</li>
+            <li><strong>Sin almacenaje:</strong> no pagas de más por esperar.</li>
+            <li><strong>Cobertura total:</strong> entrega a domicilio en las 16 provincias.</li>
+            <li><strong>Confianza:</strong> inspección de calidad en cada paquete.</li>
+          </ul>
+          <a href="#contacto" class="btn btn--accent">Únete a Tropicargo</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== FAQ ===== -->
+    <section class="section section--alt" id="faq">
+      <div class="container container--narrow">
+        <header class="section__head">
+          <span class="eyebrow eyebrow--dark">FAQs</span>
+          <h2>Preguntas frecuentes</h2>
+        </header>
+        <div class="faq">
+          <details class="faq__item">
+            <summary>¿Cómo obtengo mi dirección en Miami?</summary>
+            <p>Al registrarte gratis en Tropicargo te asignamos un casillero virtual con una dirección personal en 3132 NW 72nd Ave, Doral, FL 33122. Úsala como dirección de envío en cualquier tienda de EE. UU.</p>
+          </details>
+          <details class="faq__item">
+            <summary>¿Cobran por almacenamiento?</summary>
+            <p>No. Recibimos, pesamos y cotizamos tu paquete y lo dejamos listo para el envío en el menor tiempo posible, sin cargos de almacenaje.</p>
+          </details>
+          <details class="faq__item">
+            <summary>¿Cuánto tarda en llegar a Cuba?</summary>
+            <p>Depende del método: exprés en 48–72 horas, aéreo en 7–10 días y marítimo en aproximadamente 21 días desde la llegada a nuestro warehouse.</p>
+          </details>
+          <details class="faq__item">
+            <summary>¿Entregan en todas las provincias?</summary>
+            <p>Sí. Realizamos entrega a domicilio en La Habana, Artemisa, Mayabeque y el resto de las provincias de Cuba.</p>
+          </details>
+          <details class="faq__item">
+            <summary>¿Pueden comprar por mí si no tengo tarjeta de EE. UU.?</summary>
+            <p>Sí, con nuestro servicio de Compras Asistidas realizamos la compra por ti en cualquier tienda y gestionamos todo el envío.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Contacto / CTA ===== -->
+    <section class="cta" id="contacto">
+      <div class="container cta__inner">
+        <div class="cta__text">
+          <h2>¿Listo para enviar a Cuba?</h2>
+          <p>Regístrate gratis, obtén tu dirección en Miami y empieza a comprar hoy mismo. Nuestro equipo te acompaña en cada paso.</p>
+          <div class="cta__actions">
+            <a href="tel:+17865617158" class="btn btn--accent btn--lg">Llamar +1 (786) 561-7158</a>
+            <a href="https://wa.me/17865617158" target="_blank" rel="noopener" class="btn btn--ghost btn--lg">Escríbenos por WhatsApp</a>
+          </div>
+        </div>
+        <ul class="cta__info">
+          <li><strong>Teléfono</strong><a href="tel:+17865617158">+1 (786) 561-7158</a></li>
+          <li><strong>Oficina</strong><span>3132 NW 72nd Ave, Doral, FL 33122</span></li>
+          <li><strong>Horario</strong><span>Soporte 24/7</span></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== Footer ===== -->
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div class="footer__brand">
+        <img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyBpZD0iQ2FwYV8xIiBkYXRhLW5hbWU9IkNhcGEgMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2aWV3Qm94PSIwIDAgMjQ3LjQ4IDgyLjA4Ij4KICA8ZGVmcz4KICAgIDxzdHlsZT4KICAgICAgLmNscy0xIHsKICAgICAgICBmaWxsOiAjZWRhMTNiOwogICAgICB9CgogICAgICAuY2xzLTIgewogICAgICAgIGZpbGw6ICMzOGFjYzY7CiAgICAgIH0KCiAgICAgIC5jbHMtMyB7CiAgICAgICAgZmlsbDogI2ZmZmZmZjsKICAgICAgfQoKICAgICAgLmNscy00IHsKICAgICAgICBmaWxsOiAjMjg4MzhjOwogICAgICB9CiAgICA8L3N0eWxlPgogIDwvZGVmcz4KICA8Zz4KICAgIDxwYXRoIGNsYXNzPSJjbHMtMyIgZD0iTTEwNC42MiwwbC0zLjMxLDEyLjg5aDE2LjI1bC0xLjk1LDcuNTgtLjA0LjEzLTMsMTEuNjYtLjA2LjI0LTEuMDksNC4yNS0xLjcsNi41OSwxNi44Mi03LjU3LjU3LTIuNC40OC0xLjg4LDEuNzctNi44Ni45Mi0zLjU2LjI3LTEuMDYsMS4xMi00LjM2LjcxLTIuNzdoMTYuNDFzMy4zMS0xMi44OSwzLjMxLTEyLjg5aC00Ny40OVoiLz4KICAgIDxwb2x5Z29uIGNsYXNzPSJjbHMtMSIgcG9pbnRzPSIxNDguNjkgMTIuODkgMTQ0LjggMjguMDEgMTI2LjU1IDM1Ljc3IDEzMC4zNyAyMC43NiAxNDguNjkgMTIuODkiLz4KICAgIDxwb2x5Z29uIGNsYXNzPSJjbHMtNCIgcG9pbnRzPSIxMTcuNTYgMTIuODkgMTEzLjcxIDI3LjkyIDk1LjM2IDM1LjkzIDk5LjMxIDIwLjU5IDExNy41NiAxMi44OSIvPgogICAgPHBvbHlnb24gY2xhc3M9ImNscy0yIiBwb2ludHM9IjEzMC4zNyAyMC43NiAxMjYuNTUgMzUuNzcgMTA5LjczIDQzLjM1IDExMy42OSAyNy45NyAxMzAuMzcgMjAuNzYiLz4KICA8L2c+CiAgPGc+CiAgICA8cGF0aCBjbGFzcz0iY2xzLTMiIGQ9Ik0wLDUyLjMzdjYuNTVoNy4wNHYyMi44N2g2LjYzdi0yMi44N2g3LjA4di02LjU1SDBaIi8+CiAgICA8cGF0aCBjbGFzcz0iY2xzLTMiIGQ9Ik0zNy4yOSw2OS4yN2MxLjY5LS42NiwzLjA1LTEuNzMsNC4xLTMuMjEsMS4wNS0xLjQ4LDEuNTctMy4xNCwxLjU3LTQuOTksMC0yLjQxLS44Ni00LjQ2LTIuNTctNi4xNy0xLjcyLTEuNzItMy43Ny0yLjU3LTYuMTctMi41N2gtMTEuMXYyOS40Mmg2LjYzdi0xMS45M2guMDlsOS4xMSwxMS45M2g3LjkxbC05LjU3LTEyLjQ3Wk0zNS42Nyw2My4zOWMtLjU4LjU1LTEuMzEuODMtMi4yLjgzaC0zLjczdi01Ljg0aDMuNzNjLjg4LDAsMS42MS4yOCwyLjIuODUuNTguNTcuODcsMS4yNi44NywyLjA5cy0uMjksMS41Mi0uODcsMi4wOFoiLz4KICAgIDxwYXRoIGNsYXNzPSJjbHMtMyIgZD0iTTcxLjE2LDU2LjQxYy0yLjk0LTIuOTQtNi40OS00LjQxLTEwLjYzLTQuNDFzLTcuNjksMS40Ny0xMC42Myw0LjQxYy0yLjk0LDIuOTUtNC40MSw2LjQ5LTQuNDEsMTAuNjNzMS40Nyw3LjY5LDQuNDEsMTAuNjNjMi45NCwyLjk0LDYuNDksNC40MSwxMC42Myw0LjQxczcuNjktMS40NywxMC42My00LjQxYzIuOTQtMi45NSw0LjQxLTYuNDksNC40MS0xMC42M3MtMS40Ny03LjY4LTQuNDEtMTAuNjNaTTY2LjUsNzMuMTdjLTEuNiwxLjY5LTMuNTksMi41My01Ljk3LDIuNTNzLTQuMzctLjg0LTUuOTctMi41M2MtMS42LTEuNjktMi40LTMuNzMtMi40LTYuMTRzLjgtNC40NCwyLjQtNi4xM2MxLjYtMS42OCwzLjU5LTIuNTMsNS45Ny0yLjUzczQuMzYuODUsNS45NywyLjUzYzEuNiwxLjY5LDIuNCwzLjczLDIuNCw2LjEzcy0uOCw0LjQ1LTIuNCw2LjE0WiIvPgogICAgPHBhdGggY2xhc3M9ImNscy0zIiBkPSJNOTUuNDYsNTUuMjNjLTEuOTQtMS45NC00LjMyLTIuOS03LjE3LTIuOWgtOS43djI5LjQyaDYuNjN2LTkuNDVoMy4wN2MyLjg0LDAsNS4yMy0uOTcsNy4xNy0yLjksMS45My0xLjkzLDIuOS00LjMsMi45LTcuMDlzLS45Ny01LjE1LTIuOS03LjA4Wk05MC44Niw2NC45OWMtLjcyLjc2LTEuNiwxLjE0LTIuNjUsMS4xNGgtMi45OHYtNy41OGgyLjk4YzEuMDUsMCwxLjkzLjM3LDIuNjUsMS4xMS43Mi43NSwxLjA4LDEuNjMsMS4wOCwyLjY1cy0uMzYsMS45Mi0xLjA4LDIuNjhaIi8+CiAgICA8cGF0aCBjbGFzcz0iY2xzLTMiIGQ9Ik0xMDAuOTMsNTIuMzN2MjkuNDJoNi42M3YtMjkuNDJoLTYuNjNaIi8+CiAgICA8cGF0aCBjbGFzcz0iY2xzLTMiIGQ9Ik0xMjkuODUsNzQuNThjLTEuMjcuNzQtMi42OCwxLjEyLTQuMjIsMS4xMi0yLjM4LDAtNC4zNy0uODQtNS45Ny0yLjUzLTEuNi0xLjY5LTIuNC0zLjczLTIuNC02LjE0cy44LTQuNDQsMi40LTYuMTNjMS42LTEuNjgsMy41OS0yLjUzLDUuOTctMi41MywxLjU1LDAsMi45NS4zNyw0LjIyLDEuMTIsMS4yNy43NCwyLjI5LDEuNzQsMy4wNywyLjk4bDUuMDEtNC4xYy0xLjQxLTEuOTYtMy4xOS0zLjUxLTUuMzUtNC42Ni0yLjE1LTEuMTUtNC40Ny0xLjcyLTYuOTYtMS43Mi00LjE1LDAtNy42OSwxLjQ3LTEwLjYzLDQuNDEtMi45NSwyLjk1LTQuNDIsNi40OS00LjQyLDEwLjYzczEuNDcsNy42OSw0LjQyLDEwLjYzYzIuOTQsMi45NCw2LjQ4LDQuNDEsMTAuNjMsNC40MSwyLjQ4LDAsNC44LS41Nyw2Ljk2LTEuNzIsMi4xNi0xLjE0LDMuOTQtMi43LDUuMzUtNC42NmwtNS4wMS00LjFjLS43OCwxLjI0LTEuOCwyLjI0LTMuMDcsMi45OFoiLz4KICAgIDxwYXRoIGNsYXNzPSJjbHMtMyIgZD0iTTE1MC40OCw1MmwtMTQuNSwyOS43NWg2Ljk2bDEuODYtMy45M2gwbDIuODMtNi4wMS40Mi0uODgsMi40NC01LjIsMi44Niw2LjA5aC0yLjY0bC0yLjQ0LDUuMzloNy42MWwyLjE1LDQuNTZoNi45NmwtMTQuNS0yOS43NVoiLz4KICAgIDxwYXRoIGNsYXNzPSJjbHMtMyIgZD0iTTE4MC4wMyw2OS4yN2MxLjY4LS42NiwzLjA1LTEuNzMsNC4xLTMuMjEsMS4wNS0xLjQ4LDEuNTgtMy4xNCwxLjU4LTQuOTksMC0yLjQxLS44Ni00LjQ2LTIuNTctNi4xNy0xLjcxLTEuNzItMy43Ny0yLjU3LTYuMTctMi41N2gtMTEuMTF2MjkuNDJoNi42M3YtMTEuOTNoLjA4bDkuMTIsMTEuOTNoNy45MWwtOS41Ny0xMi40N1pNMTc4LjQxLDYzLjM5Yy0uNTguNTUtMS4zMS44My0yLjIuODNoLTMuNzN2LTUuODRoMy43M2MuODgsMCwxLjYyLjI4LDIuMi44NS41OC41Ny44NywxLjI2Ljg3LDIuMDlzLS4yOSwxLjUyLS44NywyLjA4WiIvPgogICAgPHBhdGggY2xhc3M9ImNscy0zIiBkPSJNMjA0LjY4LDYzLjkzbC0yLjgyLDYuMjFoNy4wOXY0LjFjLTEuMzUuOTctMy4yNCwxLjQ1LTUuNjcsMS40NXMtNC4zNy0uODQtNS45Ny0yLjUzYy0xLjYtMS42OS0yLjQtMy43My0yLjQtNi4xNHMuOC00LjQ0LDIuNC02LjEzYzEuNi0xLjY4LDMuNTktMi41Myw1Ljk3LTIuNTMsMS41NSwwLDIuODUuMjUsMy45Mi43NywxLjA2LjUxLDIuMDUsMS4zNSwyLjk2LDIuNWw1LjAyLTQuMWMtMy4wMS0zLjctNi45OC01LjU1LTExLjg5LTUuNTUtNC4xNSwwLTcuNjksMS40Ny0xMC42Myw0LjQxLTIuOTUsMi45NS00LjQyLDYuNDktNC40MiwxMC42M3MxLjQ3LDcuNjksNC40MiwxMC42M2MyLjk0LDIuOTQsNi40OCw0LjQxLDEwLjYzLDQuNDEsNS4yMiwwLDkuMjUtMS42LDEyLjEtNC44di0xMy4zNGgtMTAuNjlaIi8+CiAgICA8cGF0aCBjbGFzcz0iY2xzLTMiIGQ9Ik0yNDMuMDcsNTYuNDFjLTIuOTUtMi45NC02LjQ5LTQuNDEtMTAuNjMtNC40MXMtNy42OSwxLjQ3LTEwLjYzLDQuNDFjLTIuOTUsMi45NS00LjQyLDYuNDktNC40MiwxMC42M3MxLjQ3LDcuNjksNC40MiwxMC42M2MyLjk0LDIuOTQsNi40OCw0LjQxLDEwLjYzLDQuNDFzNy42OC0xLjQ3LDEwLjYzLTQuNDFjMi45NC0yLjk1LDQuNDEtNi40OSw0LjQxLTEwLjYzcy0xLjQ3LTcuNjgtNC40MS0xMC42M1pNMjM4LjQsNzMuMTdjLTEuNiwxLjY5LTMuNTksMi41My01Ljk2LDIuNTNzLTQuMzctLjg0LTUuOTctMi41M2MtMS42LTEuNjktMi40LTMuNzMtMi40LTYuMTRzLjgtNC40NCwyLjQtNi4xM2MxLjYtMS42OCwzLjU5LTIuNTMsNS45Ny0yLjUzczQuMzYuODUsNS45NiwyLjUzYzEuNiwxLjY5LDIuNDEsMy43MywyLjQxLDYuMTNzLS44LDQuNDUtMi40MSw2LjE0WiIvPgogIDwvZz4KPC9zdmc+" alt="Tropicargo" width="190" height="63">
+        <p>Soluciones logísticas seguras y rápidas entre EE. UU. y el mundo.</p>
+        <div class="footer__social">
+          <a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 24 24" class="ico" aria-hidden="true"><path d="M13 22v-8h2.7l.4-3H13V9.1c0-.9.3-1.5 1.6-1.5H16V4.9c-.3 0-1.2-.1-2.3-.1-2.3 0-3.9 1.4-3.9 4v2.2H7v3h2.8v8H13z"/></svg></a>
+          <a href="https://instagram.com/tropicargo_express" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24" class="ico" aria-hidden="true"><path d="M12 2.2c3.2 0 3.6 0 4.9.1 1.2.1 1.8.3 2.2.4.6.2 1 .5 1.4.9.4.4.7.8.9 1.4.2.5.4 1.1.4 2.2.1 1.3.1 1.7.1 4.9s0 3.6-.1 4.9c-.1 1.2-.3 1.8-.4 2.2-.2.6-.5 1-.9 1.4-.4.4-.8.7-1.4.9-.5.2-1.1.4-2.2.4-1.3.1-1.7.1-4.9.1s-3.6 0-4.9-.1c-1.2-.1-1.8-.3-2.2-.4-.6-.2-1-.5-1.4-.9-.4-.4-.7-.8-.9-1.4-.2-.5-.4-1.1-.4-2.2C2.2 15.6 2.2 15.2 2.2 12s0-3.6.1-4.9c.1-1.2.3-1.8.4-2.2.2-.6.5-1 .9-1.4.4-.4.8-.7 1.4-.9.5-.2 1.1-.4 2.2-.4C8.4 2.2 8.8 2.2 12 2.2z"/></svg></a>
+          <a href="https://tiktok.com/@tropicargo_express" target="_blank" rel="noopener" aria-label="TikTok"><svg viewBox="0 0 24 24" class="ico" aria-hidden="true"><path d="M16.6 5.8a4.3 4.3 0 01-1-2.8h-3v12.2a2.5 2.5 0 11-1.8-2.4V9.7a5.5 5.5 0 105.4 5.5V9.4a7 7 0 004.1 1.3V7.6a4.3 4.3 0 01-2.7-1.8z"/></svg></a>
+        </div>
+      </div>
+      <nav class="footer__col" aria-label="Páginas">
+        <h4>Páginas</h4>
+        <a href="#top">Inicio</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#nosotros">Quiénes somos</a>
+        <a href="#contacto">Contacto</a>
+        <a href="#planes">Planes</a>
+      </nav>
+      <nav class="footer__col" aria-label="Servicios">
+        <h4>Servicios</h4>
+        <a href="#servicios">Casillero Virtual</a>
+        <a href="#servicios">Dropshipping</a>
+        <a href="#servicios">Almacenamiento y Envíos</a>
+        <a href="#servicios">Compras Asistidas</a>
+      </nav>
+      <div class="footer__col">
+        <h4>Suscríbete</h4>
+        <p class="footer__note">Recibe novedades y promociones de Tropicargo.</p>
+        <form class="footer__sub" id="subForm" novalidate>
+          <input type="email" placeholder="Tu correo electrónico" aria-label="Correo electrónico" required>
+          <button class="btn btn--accent" type="submit">Suscribirme</button>
+        </form>
+        <p class="footer__msg" id="subMsg" role="status"></p>
+      </div>
+    </div>
+    <div class="footer__bar">
+      <div class="container footer__bar-inner">
+        <span>© 2026 Tropicargo. Todos los derechos reservados.</span>
+        <nav aria-label="Legal">
+          <a href="#">🔐 Política de Privacidad</a>
+          <a href="#">⚖️ Términos y Condiciones</a>
+        </nav>
+      </div>
+    </div>
+  </footer>
+
+  <a href="https://wa.me/17865617158" class="whatsapp-float" target="_blank" rel="noopener" aria-label="Contactar por WhatsApp">
+    <svg viewBox="0 0 32 32" aria-hidden="true"><path fill="currentColor" d="M16 3C9 3 3.5 8.5 3.5 15.5c0 2.4.7 4.6 1.8 6.5L3 29l7.2-2.3c1.8 1 3.9 1.5 6 1.5 7 0 12.5-5.5 12.5-12.5S23 3 16 3zm0 22.7c-1.9 0-3.7-.5-5.3-1.5l-.4-.2-4.3 1.4 1.4-4.2-.3-.4a10 10 0 01-1.6-5.3C5.6 9.7 10.3 5 16 5s10.4 4.7 10.4 10.5S21.7 25.7 16 25.7zm5.7-7.8c-.3-.2-1.8-.9-2.1-1-.3-.1-.5-.2-.7.2s-.8 1-.9 1.2c-.2.2-.3.2-.6.1-1.8-.9-3-1.6-4.2-3.6-.3-.5.3-.5.9-1.6.1-.2 0-.4 0-.6s-.7-1.7-1-2.3c-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4-.3.4-1.2 1.2-1.2 2.8s1.2 3.3 1.4 3.5c.2.2 2.4 3.7 5.8 5.1 2.1.9 3 1 4 .8.6-.1 1.8-.7 2.1-1.5.3-.7.3-1.4.2-1.5-.1-.2-.3-.2-.6-.4z"/></svg>
+  </a>
+
+  <script>
+/* Tropicargo — interacciones del sitio */
+(function () {
+  'use strict';
+
+  /* ---------- Menú móvil ---------- */
+  var toggle = document.getElementById('navToggle');
+  var nav = document.getElementById('nav');
+  if (toggle && nav) {
+    toggle.addEventListener('click', function () {
+      var open = nav.classList.toggle('is-open');
+      toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+      document.body.style.overflow = open ? 'hidden' : '';
+    });
+    nav.querySelectorAll('a').forEach(function (a) {
+      a.addEventListener('click', function () {
+        nav.classList.remove('is-open');
+        toggle.setAttribute('aria-expanded', 'false');
+        document.body.style.overflow = '';
+      });
+    });
+  }
+
+  /* ---------- Cotizador rápido ---------- */
+  // Tarifas base orientativas (USD): tarifa fija + costo por libra.
+  var RATES = {
+    express:  { base: 20, perLb: 6.5 },
+    aereo:    { base: 12, perLb: 4.2 },
+    maritimo: { base: 8,  perLb: 1.8 }
+  };
+  // Multiplicador por lejanía respecto a La Habana.
+  var PROV_FACTOR = {
+    'La Habana': 1, 'Artemisa': 1.05, 'Mayabeque': 1.05, 'Matanzas': 1.1,
+    'Villa Clara': 1.15, 'Cienfuegos': 1.15, 'Sancti Spíritus': 1.2,
+    'Ciego de Ávila': 1.25, 'Camagüey': 1.3, 'Las Tunas': 1.35,
+    'Holguín': 1.4, 'Granma': 1.45, 'Santiago de Cuba': 1.5,
+    'Guantánamo': 1.55, 'Pinar del Río': 1.15, 'Isla de la Juventud': 1.6
+  };
+
+  var qType = document.getElementById('qType');
+  var qWeight = document.getElementById('qWeight');
+  var qProv = document.getElementById('qProv');
+  var qPrice = document.getElementById('qPrice');
+
+  function calcQuote() {
+    if (!qType || !qWeight || !qProv || !qPrice) return;
+    var rate = RATES[qType.value] || RATES.aereo;
+    var lb = Math.max(1, parseFloat(qWeight.value) || 0);
+    var factor = PROV_FACTOR[qProv.value] || 1.2;
+    var total = (rate.base + rate.perLb * lb) * factor;
+    qPrice.textContent = '$' + total.toFixed(2);
+  }
+  [qType, qWeight, qProv].forEach(function (el) {
+    if (el) { el.addEventListener('input', calcQuote); el.addEventListener('change', calcQuote); }
+  });
+  calcQuote();
+
+  var quoteForm = document.getElementById('quoteForm');
+  if (quoteForm) quoteForm.addEventListener('submit', function (e) { e.preventDefault(); });
+
+  /* ---------- Contador de estadísticas ---------- */
+  function animateCount(el) {
+    var target = parseFloat(el.getAttribute('data-count')) || 0;
+    var suffix = el.getAttribute('data-suffix') || '';
+    var dur = 1400, start = null;
+    function step(ts) {
+      if (!start) start = ts;
+      var p = Math.min((ts - start) / dur, 1);
+      var eased = 1 - Math.pow(1 - p, 3);
+      var val = Math.round(target * eased);
+      el.textContent = val.toLocaleString('es-ES') + suffix;
+      if (p < 1) requestAnimationFrame(step);
+    }
+    requestAnimationFrame(step);
+  }
+
+  /* ---------- Reveal on scroll + contadores ---------- */
+  // Etiqueta automáticamente los elementos a animar.
+  document.querySelectorAll(
+    '.section__head, .service, .ship, .step, .plan, .about__content, .about__media, .faq__item'
+  ).forEach(function (el) { el.setAttribute('data-reveal', ''); });
+
+  var revealEls = document.querySelectorAll('[data-reveal]');
+  var countEls = document.querySelectorAll('.stat__num');
+
+  if ('IntersectionObserver' in window) {
+    var io = new IntersectionObserver(function (entries, obs) {
+      entries.forEach(function (entry) {
+        if (entry.isIntersecting) { entry.target.classList.add('is-visible'); obs.unobserve(entry.target); }
+      });
+    }, { threshold: 0, rootMargin: '0px 0px -8% 0px' });
+    revealEls.forEach(function (el) {
+      // Revela de inmediato lo que ya está visible al cargar (evita parpadeo above-the-fold).
+      var r = el.getBoundingClientRect();
+      if (r.top < (window.innerHeight || document.documentElement.clientHeight)) el.classList.add('is-visible');
+      else io.observe(el);
+    });
+
+    var countObserver = new IntersectionObserver(function (entries, obs) {
+      entries.forEach(function (entry) {
+        if (entry.isIntersecting) { animateCount(entry.target); obs.unobserve(entry.target); }
+      });
+    }, { threshold: 0.5 });
+    countEls.forEach(function (el) { countObserver.observe(el); });
+  } else {
+    revealEls.forEach(function (el) { el.classList.add('is-visible'); });
+    countEls.forEach(animateCount);
+  }
+
+  /* ---------- Suscripción (demo front-end) ---------- */
+  var subForm = document.getElementById('subForm');
+  var subMsg = document.getElementById('subMsg');
+  if (subForm) {
+    subForm.addEventListener('submit', function (e) {
+      e.preventDefault();
+      var input = subForm.querySelector('input[type="email"]');
+      if (input && input.value && /\S+@\S+\.\S+/.test(input.value)) {
+        if (subMsg) subMsg.textContent = '¡Gracias por formar parte de nuestra comunidad!';
+        subForm.reset();
+      } else if (subMsg) {
+        subMsg.textContent = 'Introduce un correo válido, por favor.';
+      }
+    });
+  }
+
+  /* ---------- Formulario de contacto (demo front-end) ---------- */
+  var contactForm = document.getElementById('contactForm');
+  var contactMsg = document.getElementById('contactMsg');
+  if (contactForm) {
+    contactForm.addEventListener('submit', function (e) {
+      e.preventDefault();
+      if (!contactForm.checkValidity()) {
+        if (contactMsg) contactMsg.textContent = 'Completa los campos obligatorios (*).';
+        contactForm.reportValidity();
+        return;
+      }
+      if (contactMsg) contactMsg.textContent = '¡Gracias! Hemos recibido tu mensaje. Te contactaremos muy pronto.';
+      contactForm.reset();
+    });
+  }
+})();
+
+</script>
+</body>
+</html>
