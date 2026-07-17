@@ -87,8 +87,13 @@
       entries.forEach(function (entry) {
         if (entry.isIntersecting) { entry.target.classList.add('is-visible'); obs.unobserve(entry.target); }
       });
-    }, { threshold: 0.15 });
-    revealEls.forEach(function (el) { io.observe(el); });
+    }, { threshold: 0, rootMargin: '0px 0px -8% 0px' });
+    revealEls.forEach(function (el) {
+      // Revela de inmediato lo que ya está visible al cargar (evita parpadeo above-the-fold).
+      var r = el.getBoundingClientRect();
+      if (r.top < (window.innerHeight || document.documentElement.clientHeight)) el.classList.add('is-visible');
+      else io.observe(el);
+    });
 
     var countObserver = new IntersectionObserver(function (entries, obs) {
       entries.forEach(function (entry) {
@@ -117,5 +122,19 @@
     });
   }
 
-  /* ---------- Año dinámico ya no necesario (estático 2026) ---------- */
+  /* ---------- Formulario de contacto (demo front-end) ---------- */
+  var contactForm = document.getElementById('contactForm');
+  var contactMsg = document.getElementById('contactMsg');
+  if (contactForm) {
+    contactForm.addEventListener('submit', function (e) {
+      e.preventDefault();
+      if (!contactForm.checkValidity()) {
+        if (contactMsg) contactMsg.textContent = 'Completa los campos obligatorios (*).';
+        contactForm.reportValidity();
+        return;
+      }
+      if (contactMsg) contactMsg.textContent = '¡Gracias! Hemos recibido tu mensaje. Te contactaremos muy pronto.';
+      contactForm.reset();
+    });
+  }
 })();

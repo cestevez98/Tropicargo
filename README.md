@@ -28,19 +28,28 @@ en cualquier hosting.
 - Accesibilidad: navegación por teclado, `aria-labels`, respeto a
   `prefers-reduced-motion`.
 
-## 📁 Estructura
+## 📁 Estructura (sitio multipágina)
 
 ```
 .
-├── index.html              # Página principal (todas las secciones)
+├── index.html              # Home: hero + cotizador, servicios, envíos, planes, CTA
+├── servicios.html          # Servicios en detalle + tipos de envío
+├── planes.html             # Planes de membresía
+├── nosotros.html           # Quiénes somos + valores + estadísticas
+├── faqs.html               # Preguntas frecuentes
+├── contacto.html           # Formulario, datos de contacto y mapa
 └── assets/
     ├── css/styles.css      # Estilos y sistema de diseño
-    ├── js/main.js          # Menú móvil, cotizador, contadores, animaciones
+    ├── js/main.js          # Menú móvil, cotizador, contadores, animaciones, formularios
     └── img/
         ├── logo-tropicargo.svg         # Logo a color
         ├── logo-tropicargo-white.svg   # Logo en blanco (fondos oscuros)
         └── favicon.svg
 ```
+
+Todas las páginas comparten la misma cabecera y pie. Los formularios de
+contacto y suscripción son demostraciones front-end: para producción conéctalos
+a tu backend, a un servicio de email o a una herramienta como Formspree.
 
 ## 🚀 Uso
 

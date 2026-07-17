@@ -97,7 +97,7 @@ img { max-width: 100%; display: block; }
 .brand__logo { height: 40px; width: auto; }
 .nav { display: flex; align-items: center; gap: 1.7rem; }
 .nav > a { font-family: var(--ff-head); font-weight: 600; font-size: .95rem; color: #e7edf6; }
-.nav > a:not(.btn):hover { color: var(--orange-2); }
+.nav > a:not(.btn):hover, .nav > a.active { color: var(--orange-2); }
 .nav__cta { padding: .6rem 1.15rem; }
 .nav__toggle { display: none; flex-direction: column; gap: 5px; background: none; border: 0; cursor: pointer; padding: 8px; }
 .nav__toggle span { width: 26px; height: 2.5px; background: #fff; border-radius: 2px; transition: .3s; }
@@ -268,6 +268,46 @@ img { max-width: 100%; display: block; }
 .whatsapp-float { position: fixed; right: 20px; bottom: 20px; z-index: 60; width: 56px; height: 56px; border-radius: 50%; background: #25d366; color: #fff; display: grid; place-items: center; box-shadow: 0 12px 30px rgba(37,211,102,.45); transition: transform .2s; }
 .whatsapp-float:hover { transform: scale(1.08); }
 .whatsapp-float svg { width: 32px; height: 32px; }
+
+/* ---------- Page banner (páginas internas) ---------- */
+.page-hero { position: relative; color: #fff; background: var(--navy); overflow: hidden; padding: clamp(2.6rem, 6vw, 4.2rem) 0; text-align: center; }
+.page-hero__bg { position: absolute; inset: 0; background:
+    radial-gradient(60% 90% at 80% 10%, rgba(56,172,198,.32), transparent 60%),
+    radial-gradient(50% 80% at 15% 100%, rgba(250,90,40,.26), transparent 60%),
+    linear-gradient(160deg, #0c2648, #14233d 70%, #0c2648); }
+.page-hero__inner { position: relative; }
+.page-hero h1 { color: #fff; margin-bottom: .5rem; }
+.page-hero p { color: #c6d2e4; max-width: 60ch; margin: 0 auto; }
+.breadcrumb { display: flex; gap: .5rem; justify-content: center; align-items: center; font-size: .85rem; color: #9fb0c8; margin-bottom: 1rem; }
+.breadcrumb a { color: #c6d2e4; }
+.breadcrumb a:hover { color: var(--orange-2); }
+.breadcrumb span { opacity: .6; }
+
+/* Servicio detallado (fila) */
+.svc-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.4rem; }
+.svc-detail { padding: 2rem 1.7rem; }
+.svc-detail .service__ico { width: 66px; height: 66px; font-size: 2.2rem; }
+.svc-detail h3 { font-size: 1.35rem; }
+.svc-detail ul { list-style: none; margin: 1rem 0 0; padding: 0; display: grid; gap: .5rem; }
+.svc-detail li { position: relative; padding-left: 1.6rem; color: var(--muted); font-size: .93rem; }
+.svc-detail li::before { content: "✓"; position: absolute; left: 0; color: var(--cyan); font-weight: 800; }
+
+/* Contacto */
+.contact { display: grid; grid-template-columns: 1fr 1fr; gap: 2.5rem; align-items: start; }
+.contact__form { display: grid; gap: 1rem; }
+.contact__row { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+.contact textarea { min-height: 130px; resize: vertical; }
+.contact__aside { display: grid; gap: 1rem; }
+.contact__card { padding: 1.5rem; display: flex; gap: 1rem; align-items: flex-start; }
+.contact__card .ico-box { width: 46px; height: 46px; flex: none; display: grid; place-items: center; border-radius: 12px; background: linear-gradient(135deg, rgba(56,172,198,.16), rgba(250,90,40,.14)); font-size: 1.3rem; }
+.contact__card h4 { margin: 0 0 .2rem; font-size: 1rem; }
+.contact__card p, .contact__card a { margin: 0; color: var(--muted); font-size: .95rem; }
+.contact__card a:hover { color: var(--orange); }
+.contact__map { border: 0; width: 100%; height: 260px; border-radius: var(--radius-lg) var(--radius-lg) 0 0; box-shadow: var(--shadow-sm); background: linear-gradient(135deg, #14233d, #0c2648); display: block; }
+.contact__mapwrap { border-radius: var(--radius-lg); overflow: hidden; box-shadow: var(--shadow-sm); border: 1px solid var(--line); }
+.contact__maplink { display: flex; align-items: center; justify-content: center; gap: .5rem; padding: .85rem; background: #fff; font-family: var(--ff-head); font-weight: 600; font-size: .9rem; color: var(--navy); }
+.contact__maplink:hover { background: var(--bg-alt); color: var(--orange); }
+.form-msg { font-size: .9rem; color: var(--teal); min-height: 1.2em; }
 
 /* Reveal animation */
 [data-reveal] { opacity: 0; transform: translateY(24px); transition: opacity .6s ease, transform .6s ease; }
