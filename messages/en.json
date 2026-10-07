@@ -1,0 +1,902 @@
+{
+  "meta": {
+    "titleTemplate": "%s | {company}",
+    "defaultTitle": "{company} | Medical Billing & Coding in Miami",
+    "defaultDescription": "Medical billing and certified medical coding for practices in Miami-Dade and Broward. Fee-for-service, HMO and full-risk. Request a 50-note audit.",
+    "keywords": "medical billing Miami, medical coding Miami, risk adjustment coding Miami, HCC coding Miami, revenue cycle management Miami, Medicare Advantage coding, credentialing Miami, Broward medical billing, facturación médica Miami",
+    "ogAlt": "{company}: medical billing and coding in Miami",
+    "home": {
+      "title": "Medical Billing & Coding in Miami",
+      "description": "Medical billing and coding for practices in Miami-Dade and Broward: accurate, complete coding, fewer denials, HEDIS quality support and audit protection."
+    },
+    "services": {
+      "title": "Medical Billing, Coding & Credentialing Services",
+      "description": "Full-service billing (RCM), dedicated CPC/CRC coder for risk adjustment and quality, audit and recovery projects, and credentialing for Miami practices."
+    },
+    "howWeWork": {
+      "title": "How We Work",
+      "description": "Contract and HIPAA BAA, individual user access to your EHR (eClinicalWorks, athenahealth, AdvancedMD, Tebra), coding, quality control, submission, follow-up and a monthly report."
+    },
+    "metrics": {
+      "title": "Metrics & Service Targets",
+      "description": "The service targets we track every month: clean claim rate, denial rate, days in A/R, net collection rate, coding accuracy and coding turnaround."
+    },
+    "compliance": {
+      "title": "Compliance & Security",
+      "description": "We comply with HIPAA: a BAA with every client, encryption, two-factor authentication and access control. Compliance program based on OIG guidance and a U.S.-based team."
+    },
+    "about": {
+      "title": "About Us",
+      "description": "Meet {company}: certified coders and medical billing specialists serving practices in Miami-Dade and Broward."
+    },
+    "contact": {
+      "title": "Request a 50-Note Audit",
+      "description": "Request a 50-note audit or a quote for medical billing and coding in Miami. We reply within one business day."
+    },
+    "thankYou": {
+      "title": "Thank You for Your Request",
+      "description": "We have received your request."
+    },
+    "privacy": {
+      "title": "Privacy Policy",
+      "description": "How {company} handles the personal information it receives through this website."
+    },
+    "terms": {
+      "title": "Terms of Use",
+      "description": "Terms of use for the {company} website."
+    },
+    "notFound": {
+      "title": "Page Not Found"
+    }
+  },
+  "common": {
+    "skipToContent": "Skip to main content",
+    "requestAudit": "Request an audit",
+    "requestQuote": "Request a quote",
+    "learnMore": "See details",
+    "seeAllServices": "See all services",
+    "callUs": "Call {phone}",
+    "callShort": "Call",
+    "whatsappLabel": "Message us on WhatsApp",
+    "whatsappMessage": "Hello, I would like information about the 50-note audit for my practice.",
+    "menuOpen": "Open menu",
+    "menuClose": "Close menu",
+    "languageLabel": "Language",
+    "switchTo": "View the site in Spanish",
+    "phone": "Phone",
+    "email": "Email",
+    "address": "Address",
+    "hours": "Hours",
+    "serviceArea": "Service area",
+    "serviceAreaValue": "Miami-Dade and Broward, Florida",
+    "primaryNav": "Main navigation",
+    "mobileNav": "Mobile navigation",
+    "breadcrumbHome": "Home",
+    "opensNewTab": "(opens in a new tab)"
+  },
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "howWeWork": "How we work",
+    "metrics": "Metrics",
+    "compliance": "Compliance",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Medical billing & coding · Miami-Dade and Broward",
+      "title": "Get paid for the care your physicians already provide and document.",
+      "lead": "We code every note accurately and completely so your practice collects what it is owed, reduces denials, meets the plan’s quality measures and stays protected in an audit.",
+      "ctaPrimary": "Request an audit",
+      "ctaSecondary": "See services",
+      "points": [
+        "CPC/CRC certified coders",
+        "Fee-for-service, HMO and full-risk",
+        "Service in English and Spanish"
+      ],
+      "card": {
+        "label": "Starting point",
+        "title": "50-Note Audit",
+        "text": "We review a sample of your practice’s notes and show you, with data:",
+        "items": [
+          "Legitimate revenue that is not being collected today",
+          "Documented diagnoses missing the required specificity",
+          "Documentation risks in an audit",
+          "Open quality gaps (Stars/HEDIS)"
+        ],
+        "cta": "Request an audit",
+        "note": "No obligation to sign up. Performed under a HIPAA Business Associate Agreement."
+      }
+    },
+    "problems": {
+      "eyebrow": "What we solve",
+      "title": "The problems we see in practices every week",
+      "lead": "Most practices do not lose money because of the care they give, but because what the physician did never fully reaches the claim.",
+      "items": [
+        {
+          "title": "Uncoded or late notes",
+          "text": "Visits pile up unbilled and claims drift toward the timely filing limit."
+        },
+        {
+          "title": "Repeat denials",
+          "text": "The same eligibility, modifier or diagnosis errors cause denials month after month, and nobody fixes the root cause."
+        },
+        {
+          "title": "Aging accounts receivable",
+          "text": "Balances over 90 days that no one follows up on and that eventually become uncollectible."
+        },
+        {
+          "title": "Incomplete diagnoses",
+          "text": "Chronic conditions the physician assesses but that are not documented or coded with the specificity ICD-10 and risk adjustment require."
+        },
+        {
+          "title": "Open quality gaps",
+          "text": "Stars and HEDIS measures that were met in the visit but never reported, or that surface too late, at year-end."
+        },
+        {
+          "title": "Audit exposure",
+          "text": "Codes the note does not support. In a RADV or plan audit, that means repayments and penalties."
+        }
+      ]
+    },
+    "services": {
+      "eyebrow": "Services",
+      "title": "A billing and coding team that works as part of your practice",
+      "lead": "Choose the full service or only the piece you need. Each one adapts to your practice’s contract type."
+    },
+    "clinicTypes": {
+      "eyebrow": "Who we serve",
+      "title": "Each contract model needs something different",
+      "lead": "Many Miami practices combine several models. We shape the work around how your practice actually gets paid.",
+      "items": [
+        {
+          "title": "Fee-for-service",
+          "model": "Paid per visit",
+          "benefit": "Get every visit paid in full, on time and with fewer denials.",
+          "points": [
+            "Visit level (E/M) and procedures coded as documented",
+            "Claims reviewed before submission",
+            "Denial and A/R follow-up until payment"
+          ]
+        },
+        {
+          "title": "HMO (flat rate or capitation)",
+          "model": "Fixed payment per patient",
+          "benefit": "Complete encounter data and quality measures met.",
+          "points": [
+            "Every encounter reported to the plan with complete diagnoses",
+            "Chronic conditions assessed and documented every year",
+            "Stars/HEDIS gaps worked throughout the year"
+          ]
+        },
+        {
+          "title": "Full risk",
+          "model": "Takes on the patient’s financial risk",
+          "benefit": "Risk adjustment that reflects the true complexity your physicians document.",
+          "points": [
+            "Risk adjustment (HCC) coding supported in every note",
+            "Visit preparation and note review before closing",
+            "Documentation ready for a RADV audit"
+          ]
+        }
+      ]
+    },
+    "process": {
+      "eyebrow": "How we work",
+      "title": "Five steps, without disrupting your clinic",
+      "lead": "We work inside the EHR your practice already uses. Your staff does not have to switch software.",
+      "steps": [
+        {
+          "title": "50-note audit",
+          "text": "We measure where your practice stands today: uncollected revenue, documentation risks and quality gaps."
+        },
+        {
+          "title": "Proposal, contract and BAA",
+          "text": "We present a model tailored to your practice and sign a HIPAA Business Associate Agreement (BAA)."
+        },
+        {
+          "title": "Access and kickoff",
+          "text": "Your practice creates individual user accounts for us in its EHR. We set up the workflow with your staff."
+        },
+        {
+          "title": "Coding, quality control and submission",
+          "text": "We code every note, review a sample in quality control, and submit and follow every claim."
+        },
+        {
+          "title": "Monthly report",
+          "text": "Every month we review the metrics, denials and documentation improvement opportunities with you."
+        }
+      ],
+      "cta": "See the full process"
+    },
+    "metrics": {
+      "eyebrow": "Metrics",
+      "title": "What we measure and report every month",
+      "lead": "These are our service targets. We measure them with your practice’s data and share them in the monthly report.",
+      "cta": "How we measure each metric"
+    },
+    "compliance": {
+      "eyebrow": "Compliance & security",
+      "title": "We code only what the physician documents",
+      "lead": "Your patients’ information and your practice’s reputation are at stake. That is why compliance is part of the process, not an add-on.",
+      "items": [
+        {
+          "title": "We comply with HIPAA",
+          "text": "A BAA with every client, encryption, two-factor authentication and minimum necessary access."
+        },
+        {
+          "title": "Program based on OIG guidance",
+          "text": "Written policies, a compliance officer, training, internal audits and corrective action."
+        },
+        {
+          "title": "Documentation-based",
+          "text": "The physician assesses and documents. The coder never diagnoses or adds codes the note does not support."
+        },
+        {
+          "title": "U.S.-based team",
+          "text": "Every team member with access to patient information works from the United States."
+        }
+      ],
+      "cta": "See compliance & security"
+    },
+    "faq": {
+      "eyebrow": "FAQ",
+      "title": "What practice owners and administrators ask us",
+      "items": [
+        {
+          "q": "How much does it cost?",
+          "a": "It depends on your practice’s model. For fee-for-service we charge a percentage of what is actually collected; for practices under HMO or full-risk contracts, a flat monthly fee. Projects and credentialing are quoted by scope. We send you a written quote once we understand your volume, with no hidden fees."
+        },
+        {
+          "q": "How do you access our system?",
+          "a": "Your practice creates an individual user account for each member of our team in your EHR (eClinicalWorks, athenahealth, AdvancedMD, Tebra or another), with two-factor authentication and only the permissions needed. We never use shared passwords, and you can revoke access at any time."
+        },
+        {
+          "q": "What about HIPAA?",
+          "a": "Before we see any patient information, we sign a Business Associate Agreement (BAA). We comply with HIPAA through encryption, two-factor authentication, access control, activity logging and annual training for the whole team. There is no official HIPAA certification: what matters are the controls, and we will show them to you."
+        },
+        {
+          "q": "How soon can you start?",
+          "a": "The 50-note audit is usually delivered within 5 to 10 business days after we receive access. Ongoing service typically starts 2 to 4 weeks after signing, depending on how quickly access and payer enrollments (for example, electronic payments and remittances) are completed."
+        },
+        {
+          "q": "Do you work with Medicare, Medicaid and commercial insurance?",
+          "a": "Yes. We work with Original Medicare, Medicare Advantage plans (HMO and PPO), Florida Medicaid plans and commercial insurers. We adapt to the rules of each payer and each of your practice’s contracts."
+        },
+        {
+          "q": "What is the difference between full-service billing and a dedicated coder?",
+          "a": "Full-service billing (RCM) covers the entire revenue cycle: coding, claim submission, payments, denials, A/R and reporting. A dedicated coder is a certified professional assigned to your practice who focuses on documentation quality, risk adjustment coding and quality gaps; it is especially useful for practices under HMO or full-risk contracts. Many practices combine both."
+        },
+        {
+          "q": "Is there a minimum contract?",
+          "a": "Ongoing services have an initial term agreed in the proposal and then renew month to month, with written notice to terminate so pending accounts can be transitioned in an orderly way. Projects are contracted by scope, with no long-term commitment."
+        },
+        {
+          "q": "What does the 50-note audit include?",
+          "a": "We review 50 recent notes selected with you (different providers and visit types). We assess visit level, procedures, diagnosis specificity, support for risk-adjusting conditions, modifiers and quality gaps. You receive a written report with findings, an estimate of legitimate uncollected revenue, the risks in your documentation and recommendations, plus a meeting to walk through it. There is no obligation to sign up."
+        },
+        {
+          "q": "Does the coder tell the physician what to diagnose?",
+          "a": "No. The physician always assesses, diagnoses and documents. The coder prepares information from the chart for the physician to review and, when a note is unclear, sends a neutral query without suggesting an answer. We code only what the physician documents and supports."
+        },
+        {
+          "q": "Do you offer service in Spanish?",
+          "a": "Yes. Our team works in Spanish and English, with owners and administrators as well as with your front desk and billing staff."
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "Start by seeing your real numbers",
+      "text": "The 50-note audit shows you how much legitimate revenue you are leaving uncollected and what risks your documentation carries, before you make any decision.",
+      "primary": "Request an audit",
+      "secondary": "Call {phone}"
+    }
+  },
+  "servicesData": {
+    "rcm": {
+      "title": "Full-service billing (RCM)",
+      "short": "The entire revenue cycle, from note to deposit: coding, submission, payments, denials, A/R and a monthly report.",
+      "summary": "We manage your practice’s entire revenue cycle so your staff can focus on patients. Every note is coded, every claim is reviewed before submission and every balance is followed until it is paid or resolved.",
+      "includesTitle": "What’s included",
+      "includes": [
+        "Coding of every note (CPT, ICD-10-CM, HCPCS and modifiers) as documented",
+        "Patient and insurance data review before submission",
+        "Electronic claim submission and correction of clearinghouse rejections",
+        "Payment and remittance posting (ERA/EOB) reconciled to deposits",
+        "Denial management and appeals within each payer’s deadlines",
+        "A/R follow-up by aging bucket and by payer",
+        "Patient statements and answers to patient billing questions",
+        "Monthly report with metrics and a review meeting"
+      ],
+      "idealTitle": "Ideal for",
+      "ideal": "Fee-for-service or mixed practices that want to outsource billing end to end or replace their current vendor."
+    },
+    "coder": {
+      "title": "Dedicated coder: risk & quality",
+      "short": "A certified coder (CPC/CRC) assigned to your practice to prepare visits, review notes and close quality gaps.",
+      "summary": "A certified coder who knows your physicians, your patients and your contracts. They work before and after the visit so documentation accurately and completely reflects each patient’s complexity and the quality measures already met.",
+      "includesTitle": "What’s included",
+      "includes": [
+        "A CPC or CRC certified coder assigned to your practice",
+        "Visit preparation: chart summary, chronic conditions still to be assessed this year and open quality gaps",
+        "Diagnosis support for the problem list: gathers evidence from the chart (labs, specialists, hospital stays) for the physician to evaluate",
+        "Note review before closing: specificity, support for each condition (MEAT) and consistency",
+        "Neutral physician queries when documentation is unclear",
+        "Quality gap work (Stars/HEDIS) and reporting of quality codes",
+        "Monthly report on documentation findings and brief physician education"
+      ],
+      "guardrailTitle": "A line we never cross",
+      "guardrail": "The physician always assesses and documents. The coder never diagnoses, never leads the answer in a query and never codes a condition the note does not support.",
+      "idealTitle": "Ideal for",
+      "ideal": "Practices with Medicare Advantage patients under HMO (flat rate or capitation) or full-risk contracts."
+    },
+    "projects": {
+      "title": "Projects",
+      "short": "Backlog note cleanup, coding audits and recovery of old accounts receivable.",
+      "summary": "Work with a defined scope and delivery date, to solve a specific problem or prepare your practice ahead of a change.",
+      "includesTitle": "Project types",
+      "includes": [
+        "Backlog cleanup: we code and submit the backlog, prioritizing timely filing limits",
+        "Coding audits: visit level (E/M), procedures, risk adjustment, pre-bill or retrospective",
+        "Old A/R recovery: balance-by-balance review, correction, resubmission and appeal where appropriate",
+        "Overpayment identification and support for timely repayment",
+        "Final report with findings, actions taken and recommendations"
+      ],
+      "idealTitle": "Ideal for",
+      "ideal": "Practices switching billing vendors or EHRs, carrying a backlog, or preparing for an audit."
+    },
+    "credentialing": {
+      "title": "Credentialing",
+      "short": "Enrollment and maintenance of your providers with Medicare, Medicaid, Medicare Advantage plans and commercial payers.",
+      "summary": "A provider who is not properly enrolled does not get paid. We handle enrollments, renewals and expirations so no physician ends up out of network because of pending paperwork.",
+      "includesTitle": "What’s included",
+      "includes": [
+        "CAQH ProView profile setup and attestation",
+        "Medicare (PECOS) and Florida Medicaid enrollment",
+        "Participation applications with Medicare Advantage plans and commercial payers",
+        "Electronic payment and remittance enrollment (EFT/ERA)",
+        "Recredentialing and tracking of license, DEA and malpractice expirations",
+        "Status log for every application, shared with your practice"
+      ],
+      "idealTitle": "Ideal for",
+      "ideal": "Practices adding new providers, opening a new location or cleaning up lapsed enrollments."
+    }
+  },
+  "servicesPage": {
+    "eyebrow": "Services",
+    "title": "Medical billing and coding services",
+    "lead": "Four services you can contract separately or combine. Every one starts by understanding how your practice gets paid.",
+    "jumpTo": "Jump to a service",
+    "pricing": {
+      "eyebrow": "Service model",
+      "title": "A model that fits how your practice gets paid",
+      "lead": "We do not publish prices because every practice is different. We send you a written quote based on your volume, your payers and the service you need.",
+      "models": [
+        {
+          "title": "Fee-for-service",
+          "basis": "Percentage of collections",
+          "text": "We charge a percentage of what your practice actually collects. Our revenue depends on you getting paid."
+        },
+        {
+          "title": "HMO or full risk",
+          "basis": "Flat monthly fee",
+          "text": "A flat fee based on the number of providers and visit volume, so our compensation never depends on the codes reported."
+        },
+        {
+          "title": "Projects and credentialing",
+          "basis": "By scope",
+          "text": "A fixed quote based on the volume of notes, accounts or providers in the project."
+        }
+      ],
+      "note": "We never tie our compensation to the number of diagnoses or to your patients’ risk scores.",
+      "cta": "Request a quote"
+    },
+    "ctaTitle": "Not sure where to start?",
+    "ctaText": "Start with the 50-note audit. Based on the results, we will recommend the service that makes sense for your practice, or none at all."
+  },
+  "howWeWorkPage": {
+    "eyebrow": "How we work",
+    "title": "A clear process, inside your own system",
+    "lead": "We work inside your practice’s EHR, with individual user accounts and HIPAA controls from day one.",
+    "stepLabel": "Step",
+    "steps": [
+      {
+        "title": "Contract and HIPAA BAA",
+        "text": "We sign the service agreement and the Business Associate Agreement (BAA) before accessing any patient information.",
+        "details": [
+          "Scope, service targets and responsibilities in writing",
+          "HIPAA-compliant BAA",
+          "A designated point of contact on each side"
+        ]
+      },
+      {
+        "title": "Individual user access",
+        "text": "Your practice creates an individual account for each member of our team in your EHR and payer portals.",
+        "details": [
+          "Never shared passwords",
+          "Two-factor authentication",
+          "Minimum necessary permissions, revocable at any time"
+        ]
+      },
+      {
+        "title": "Coding",
+        "text": "We code every signed note based on what the physician documented, typically within 48 business hours.",
+        "details": [
+          "CPT, ICD-10-CM, HCPCS and modifiers",
+          "Neutral physician queries when a note is unclear",
+          "Visit preparation if you have a dedicated coder"
+        ]
+      },
+      {
+        "title": "Quality control",
+        "text": "Each month a second coder reviews a sample of the work. Errors are corrected and turned into training.",
+        "details": [
+          "Sample by coder and by provider",
+          "Coding accuracy measurement",
+          "Corrections before submission whenever possible"
+        ]
+      },
+      {
+        "title": "Submission and follow-up",
+        "text": "We submit claims, post payments and follow up on every denial and open balance.",
+        "details": [
+          "Same-day review of clearinghouse rejections",
+          "Appeals within each payer’s deadlines",
+          "A/R follow-up by aging bucket"
+        ]
+      },
+      {
+        "title": "Monthly report",
+        "text": "Every month you receive a report with the metrics and a meeting to review it with your team.",
+        "details": [
+          "Metrics against service targets",
+          "Top denial reasons and how we are fixing them",
+          "Documentation improvement opportunities"
+        ]
+      }
+    ],
+    "systems": {
+      "title": "We work inside your EHR",
+      "lead": "We do not ask you to switch software. We work in the system your practice already uses, for example:",
+      "list": ["eClinicalWorks", "athenahealth", "AdvancedMD", "Tebra (Kareo)", "NextGen", "Practice Fusion", "DrChrono"],
+      "note": "Using a different system? Ask us: we can usually work in it."
+    },
+    "needs": {
+      "title": "What we need from your practice",
+      "items": [
+        "A point of contact to resolve questions",
+        "Individual user accounts in the EHR and payer portals",
+        "Notes signed on time by physicians",
+        "A copy of the contracts or fee schedules for your main payers"
+      ]
+    },
+    "timeline": {
+      "title": "Typical timeline",
+      "items": [
+        { "when": "Week 1", "what": "Contract, BAA and access requests" },
+        { "when": "Weeks 2–3", "what": "Setup, electronic enrollments and first notes" },
+        { "when": "Week 4", "what": "Full operation and first metrics snapshot" },
+        { "when": "Every month", "what": "Report and review meeting" }
+      ],
+      "note": "Timelines depend on how quickly access and payer enrollments are completed."
+    }
+  },
+  "metricsData": {
+    "items": [
+      {
+        "key": "cleanClaim",
+        "value": "≥ 95%",
+        "label": "Clean claims on first submission",
+        "definition": "Percentage of claims accepted by the clearinghouse and payer on first submission, without corrections."
+      },
+      {
+        "key": "denialRate",
+        "value": "≤ 5%",
+        "label": "Denial rate",
+        "definition": "Percentage of processed claims that the payer denies in full or in part."
+      },
+      {
+        "key": "daysAr",
+        "value": "≤ 35",
+        "label": "Days in A/R",
+        "definition": "Average number of days it takes to collect for a service after it is provided."
+      },
+      {
+        "key": "netCollection",
+        "value": "≥ 95%",
+        "label": "Net collection rate",
+        "definition": "What was collected compared with what was collectible under your contracts, after contractual adjustments."
+      },
+      {
+        "key": "codingAccuracy",
+        "value": "≥ 95%",
+        "label": "Coding accuracy",
+        "definition": "Result of our internal quality control audits on a monthly sample of notes."
+      },
+      {
+        "key": "turnaround",
+        "value": "≤ 48 h",
+        "label": "Notes coded",
+        "definition": "Business hours from the moment the physician signs the note until it is coded."
+      }
+    ],
+    "disclaimer": "Service targets, not guaranteed results. They depend on each practice’s documentation, payer mix and registration data."
+  },
+  "metricsPage": {
+    "eyebrow": "Metrics",
+    "title": "Service targets we measure every month",
+    "lead": "What gets measured gets improved. These are the six metrics we track for every practice, and you will see them in your monthly report.",
+    "targetLabel": "Target",
+    "definitionLabel": "How it is measured",
+    "disclaimerTitle": "Targets, not promises",
+    "disclaimer": "These figures are service targets, not guaranteed results. Each practice’s results depend on factors such as the quality and timeliness of documentation, payer mix, the accuracy of patient registration data and each plan’s policies. We set them to hold ourselves accountable, explain any variance to you and correct it.",
+    "reporting": {
+      "title": "What you receive in the monthly report",
+      "items": [
+        "All six metrics, against target and against the previous month",
+        "Denials grouped by reason and payer, with the actions taken",
+        "A/R by aging bucket (0–30, 31–60, 61–90 and over 90 days)",
+        "Documentation findings by provider",
+        "Quality gap progress if your practice works under HMO or full-risk contracts"
+      ]
+    },
+    "factors": {
+      "title": "Factors that affect results",
+      "items": [
+        "Notes signed on time with complete documentation",
+        "Correct insurance information in patient registration",
+        "Payer mix and authorization policies",
+        "Legacy balances from a previous vendor"
+      ]
+    }
+  },
+  "compliancePage": {
+    "eyebrow": "Compliance & security",
+    "title": "We protect your patients and your practice",
+    "lead": "Accurate, complete coding is only valuable if it is also defensible. These are the controls we work with.",
+    "sections": [
+      {
+        "id": "hipaa",
+        "title": "We comply with HIPAA",
+        "text": "There is no official HIPAA certification. What exists are concrete controls, and these are ours:",
+        "items": [
+          "A Business Associate Agreement (BAA) signed with every client before any access",
+          "Encryption of data in transit and at rest",
+          "Two-factor authentication on every system",
+          "Access control: individual accounts, minimum necessary access and immediate revocation at offboarding",
+          "Annual HIPAA training for the entire team",
+          "Incident response and notification procedures in line with the Breach Notification Rule",
+          "Periodic security risk assessments"
+        ]
+      },
+      {
+        "id": "oig",
+        "title": "Compliance program based on OIG guidance",
+        "text": "We follow the elements of an effective compliance program described by the Office of Inspector General (OIG) of the U.S. Department of Health and Human Services:",
+        "items": [
+          "Written coding and billing policies and procedures",
+          "A designated compliance officer",
+          "Ongoing team training",
+          "Open channels to report questions or concerns, without retaliation",
+          "Internal auditing and monitoring",
+          "Consistently enforced disciplinary standards",
+          "Prompt response and corrective action, including repayment of identified overpayments",
+          "Screening of staff against the OIG exclusion list (LEIE)"
+        ]
+      },
+      {
+        "id": "documentation",
+        "title": "Coding based only on documentation",
+        "text": "We code what the physician assessed and documented, nothing more and nothing less.",
+        "items": [
+          "The physician always assesses, diagnoses and documents; the coder never diagnoses",
+          "Every risk-adjusting condition must be supported in the note (monitored, evaluated, assessed or treated)",
+          "Neutral, non-leading physician queries",
+          "When a code is not supported we flag it, even if it lowers reimbursement",
+          "If we find an overpayment, we help you report and return it on time"
+        ]
+      },
+      {
+        "id": "team",
+        "title": "U.S.-based team",
+        "text": "Every team member with access to your patients’ information works from the United States.",
+        "items": [
+          "No offshore subcontracting for work involving patient information",
+          "Background checks before hiring",
+          "Confidentiality agreements signed by every team member"
+        ]
+      }
+    ],
+    "formNoticeTitle": "About this website",
+    "formNotice": "The contact form on this website is not designed to receive patient information. Please do not include it. Clinical information is exchanged only after a BAA is signed and through secure channels."
+  },
+  "aboutPage": {
+    "eyebrow": "About us",
+    "title": "A billing team that speaks your practice’s language",
+    "lead": "{company} was founded in Miami to give local practices a serious, personal and bilingual billing and coding service.",
+    "mission": {
+      "title": "Our mission",
+      "text": "Help every practice collect, accurately and completely, for what its physicians do and document, with the confidence that everything billed can be defended."
+    },
+    "values": {
+      "title": "How we work",
+      "items": [
+        {
+          "title": "Accuracy over volume",
+          "text": "We would rather have one well-supported code than one that does not hold up in an audit."
+        },
+        {
+          "title": "Transparency",
+          "text": "Monthly metrics, auditable access and clear answers, even when the news is not good."
+        },
+        {
+          "title": "Close partnership",
+          "text": "A local team, in your language, that knows your physicians and your payers."
+        },
+        {
+          "title": "Compliance",
+          "text": "HIPAA and OIG guidance are part of every process, not a forgotten manual."
+        }
+      ]
+    },
+    "team": {
+      "title": "Our team",
+      "lead": "Certified coders and billing specialists with experience in South Florida practices.",
+      "photoPlaceholder": "Photo",
+      "members": [
+        {
+          "name": "[First and last name]",
+          "role": "Managing Director",
+          "bio": "[Short bio: medical billing experience, background with South Florida practices and languages.]"
+        },
+        {
+          "name": "[First and last name], CPC, CRC",
+          "role": "Director of Coding",
+          "bio": "[Short bio: certifications, years of risk adjustment and quality coding experience, specialties.]"
+        },
+        {
+          "name": "[First and last name]",
+          "role": "Compliance Officer",
+          "bio": "[Short bio: experience with HIPAA, compliance programs and auditing.]"
+        }
+      ]
+    }
+  },
+  "contactPage": {
+    "eyebrow": "Contact",
+    "title": "Request your 50-note audit",
+    "lead": "Tell us about your practice. We will reply within one business day to schedule the audit or send you a quote.",
+    "phiNotice": {
+      "title": "Do not include patient information in this form",
+      "text": "No names, dates of birth, insurance or chart numbers. Patient information is shared only after a BAA is signed and through a secure channel."
+    },
+    "nextSteps": {
+      "title": "What happens next",
+      "items": [
+        "We call or email you within one business day to learn about your practice.",
+        "We sign a BAA and agree on how to securely access a sample of notes.",
+        "We review 50 notes and walk you through the report in a meeting."
+      ]
+    },
+    "otherWays": "Other ways to reach us"
+  },
+  "form": {
+    "legend": {
+      "you": "About you",
+      "clinic": "Your practice",
+      "request": "Your request"
+    },
+    "requiredHint": "Fields marked with * are required.",
+    "fields": {
+      "name": "Full name",
+      "role": "Title",
+      "rolePlaceholder": "Owner, administrator, billing manager…",
+      "clinic": "Practice name",
+      "city": "City",
+      "phone": "Phone",
+      "email": "Email",
+      "providers": "Number of providers",
+      "contract": "Main contract type",
+      "service": "Service of interest",
+      "message": "Message",
+      "messageHint": "Optional. Describe your situation in general terms. Do not include patient information.",
+      "consent": "I agree that {company} may contact me about this request and I have read the <link>Privacy Policy</link>. I confirm I have not included patient information.",
+      "honeypot": "Do not fill in this field"
+    },
+    "selectPlaceholder": "Select an option",
+    "options": {
+      "providers": {
+        "1": "1",
+        "2-5": "2–5",
+        "6-15": "6–15",
+        "16+": "16 or more"
+      },
+      "contract": {
+        "ffs": "Fee-for-service",
+        "hmo": "HMO (flat rate or capitation)",
+        "full_risk": "Full risk",
+        "unsure": "I’m not sure"
+      },
+      "service": {
+        "audit": "50-note audit",
+        "rcm": "Full-service billing (RCM)",
+        "coder": "Dedicated coder",
+        "projects": "Projects",
+        "credentialing": "Credentialing",
+        "unsure": "Not sure yet"
+      }
+    },
+    "submit": "Request an audit",
+    "submitting": "Sending…",
+    "errors": {
+      "summary": "Please review the highlighted fields to continue.",
+      "required": "This field is required.",
+      "email": "Enter a valid email address.",
+      "phone": "Enter a valid phone number with at least 10 digits.",
+      "tooLong": "This text is too long.",
+      "invalidOption": "Select an option.",
+      "consent": "You must agree to continue.",
+      "phi": "The message appears to include patient information (such as dates of birth or ID numbers). Please remove it.",
+      "rateLimit": "You have sent too many requests. Please try again in a few minutes or give us a call.",
+      "server": "We could not send your request. Please try again or call us at {phone}."
+    }
+  },
+  "thankYouPage": {
+    "title": "Thank you, we have received your request",
+    "text": "We will contact you within one business day to arrange next steps. If it is urgent, call us or message us on WhatsApp.",
+    "reminder": "Remember: please do not send us patient information by email or WhatsApp. We will share it through a secure channel after the BAA is signed.",
+    "home": "Back to home",
+    "services": "See services"
+  },
+  "notFoundPage": {
+    "code": "Error 404",
+    "title": "We could not find this page",
+    "text": "The link may have changed or the address may contain a typo.",
+    "home": "Back to home",
+    "contact": "Contact us"
+  },
+  "testimonials": {
+    "eyebrow": "Testimonials",
+    "title": "What our practices say",
+    "items": []
+  },
+  "footer": {
+    "tagline": "Medical billing and coding for practices in Miami-Dade and Broward.",
+    "servicesTitle": "Services",
+    "companyTitle": "Company",
+    "contactTitle": "Contact",
+    "legalTitle": "Legal",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Use",
+    "rights": "© {year} {legalName}. All rights reserved.",
+    "phiReminder": "Do not send patient information through this website, by email or by WhatsApp.",
+    "socialLabel": "{company} on {network}"
+  },
+  "legal": {
+    "reviewNotice": "Draft pending legal review. This text is an initial template and must be reviewed by an attorney before final publication.",
+    "lastUpdated": "Last updated: [date]",
+    "privacy": {
+      "title": "Privacy Policy",
+      "intro": "This policy explains how {legalName} (“{company}”, “we”) handles the personal information it receives through this website. It does not apply to patient information we process on behalf of our clients, which is governed by our service agreements and HIPAA Business Associate Agreements (BAAs).",
+      "sections": [
+        {
+          "title": "1. Information we collect",
+          "paragraphs": [
+            "Information you provide in the contact form: name, title, practice name, city, phone, email, number of providers, contract type, service of interest and any message you write.",
+            "Aggregated, anonymous usage data, such as pages visited, country and device type, collected through an analytics tool that does not use cookies or identify individuals.",
+            "This website is not designed to receive protected health information (PHI). Please do not include it. If we receive it by mistake, we will delete it."
+          ]
+        },
+        {
+          "title": "2. How we use it",
+          "paragraphs": [
+            "To respond to your request, prepare a quote or arrange the note audit; to improve the website; and to meet legal obligations. We do not sell or rent your personal information and we do not use it for third-party advertising."
+          ]
+        },
+        {
+          "title": "3. Who we share it with",
+          "paragraphs": [
+            "With vendors that provide technical services needed to run the website, such as web hosting and email delivery, under confidentiality obligations. We may also share it when required by law."
+          ]
+        },
+        {
+          "title": "4. Cookies and analytics",
+          "paragraphs": [
+            "This website does not use advertising cookies or third-party tracking pixels. The analytics we use do not set cookies and work with aggregated data."
+          ]
+        },
+        {
+          "title": "5. Retention",
+          "paragraphs": [
+            "We keep form data as long as needed to handle your request and maintain the business relationship, and thereafter for the period required by applicable legal obligations."
+          ]
+        },
+        {
+          "title": "6. Security",
+          "paragraphs": [
+            "We apply reasonable technical and organizational measures to protect your information, such as encryption in transit and restricted access. No system is completely secure, so we cannot guarantee absolute security."
+          ]
+        },
+        {
+          "title": "7. Your choices",
+          "paragraphs": [
+            "You can ask us to access, correct or delete your information, or to stop receiving communications, by writing to {email}."
+          ]
+        },
+        {
+          "title": "8. Children",
+          "paragraphs": [
+            "This website is intended for healthcare professionals and businesses. We do not knowingly collect information from children under 13."
+          ]
+        },
+        {
+          "title": "9. Changes and contact",
+          "paragraphs": [
+            "We may update this policy. We will post the current version on this page with its update date. If you have questions, write to {email} or call {phone}."
+          ]
+        }
+      ]
+    },
+    "terms": {
+      "title": "Terms of Use",
+      "intro": "By using this website of {legalName} (“{company}”) you agree to these terms. If you do not agree, please do not use the website.",
+      "sections": [
+        {
+          "title": "1. Purpose of the website",
+          "paragraphs": [
+            "The content of this website is for general information about our services. It is not legal, accounting, medical or regulatory compliance advice for any specific situation."
+          ]
+        },
+        {
+          "title": "2. No contractual relationship",
+          "paragraphs": [
+            "Submitting the form or contacting us does not create a service relationship. That relationship exists only when both parties sign a service agreement and, where applicable, a Business Associate Agreement (BAA)."
+          ]
+        },
+        {
+          "title": "3. Metrics and results",
+          "paragraphs": [
+            "The metrics shown are service targets, not guaranteed results. Results depend on factors specific to each practice, such as documentation, payers and registration data."
+          ]
+        },
+        {
+          "title": "4. Patient information",
+          "paragraphs": [
+            "You agree not to send protected health information (PHI) through this website, our general email or WhatsApp."
+          ]
+        },
+        {
+          "title": "5. Intellectual property",
+          "paragraphs": [
+            "The text, design and graphics on this website belong to {legalName} or are used with permission. They may not be reproduced without written permission. Names of systems and payers mentioned belong to their respective owners and are cited for descriptive purposes only, without implying affiliation."
+          ]
+        },
+        {
+          "title": "6. Limitation of liability",
+          "paragraphs": [
+            "The website is provided “as is.” To the extent permitted by law, {legalName} is not liable for damages arising from use of the website or reliance on its content."
+          ]
+        },
+        {
+          "title": "7. Third-party links",
+          "paragraphs": [
+            "The website may include links to third-party sites, such as WhatsApp. We do not control their content or privacy policies."
+          ]
+        },
+        {
+          "title": "8. Governing law",
+          "paragraphs": [
+            "These terms are governed by the laws of the State of Florida, USA. Any dispute will be submitted to the competent courts of Miami-Dade County, Florida."
+          ]
+        },
+        {
+          "title": "9. Changes and contact",
+          "paragraphs": [
+            "We may change these terms at any time by posting the new version on this page. For any questions, write to {email}."
+          ]
+        }
+      ]
+    }
+  }
+}

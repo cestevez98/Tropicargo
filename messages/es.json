@@ -1,0 +1,902 @@
+{
+  "meta": {
+    "titleTemplate": "%s | {company}",
+    "defaultTitle": "{company} | Facturación y codificación médica en Miami",
+    "defaultDescription": "Facturación médica (medical billing) y codificación médica certificada para clínicas en Miami-Dade y Broward. Fee-for-service, HMO y riesgo completo. Solicite una auditoría de 50 notas.",
+    "keywords": "medical billing Miami, facturación médica Miami, codificación médica, risk adjustment coding Miami, medical coding Miami, facturación de seguros médicos, Medicare Advantage, HCC coding, credentialing Miami, Broward medical billing",
+    "ogAlt": "{company}: facturación y codificación médica en Miami",
+    "home": {
+      "title": "Facturación y codificación médica en Miami",
+      "description": "Medical billing y codificación médica para clínicas de Miami-Dade y Broward: codificación correcta y completa, menos rechazos, calidad HEDIS y protección ante auditorías."
+    },
+    "services": {
+      "title": "Servicios de facturación, codificación y credentialing",
+      "description": "Facturación integral (RCM), codificador dedicado CPC/CRC para risk adjustment y calidad, proyectos de auditoría y recuperación, y credentialing para clínicas en Miami."
+    },
+    "howWeWork": {
+      "title": "Cómo trabajamos",
+      "description": "Contrato y BAA de HIPAA, acceso con usuario propio a su sistema clínico (eClinicalWorks, athenahealth, AdvancedMD, Tebra), codificación, control de calidad, envío, seguimiento e informe mensual."
+    },
+    "metrics": {
+      "title": "Indicadores y metas de servicio",
+      "description": "Las metas de servicio que medimos cada mes: reclamaciones limpias, tasa de rechazo, días en cuentas por cobrar, tasa de cobro neto, precisión de codificación y tiempo de codificación."
+    },
+    "compliance": {
+      "title": "Cumplimiento y seguridad",
+      "description": "Cumplimos con HIPAA: BAA con cada cliente, cifrado, autenticación en dos pasos y control de accesos. Programa de cumplimiento según la guía de la OIG y equipo ubicado en EE. UU."
+    },
+    "about": {
+      "title": "Nosotros",
+      "description": "Conozca a {company}: codificadores certificados y especialistas en facturación médica al servicio de clínicas de Miami-Dade y Broward."
+    },
+    "contact": {
+      "title": "Solicitar auditoría de 50 notas",
+      "description": "Solicite una auditoría de 50 notas o una cotización de facturación y codificación médica en Miami. Le respondemos en un día hábil."
+    },
+    "thankYou": {
+      "title": "Gracias por su solicitud",
+      "description": "Hemos recibido su solicitud."
+    },
+    "privacy": {
+      "title": "Política de privacidad",
+      "description": "Cómo {company} trata los datos personales que recibe a través de este sitio web."
+    },
+    "terms": {
+      "title": "Términos de uso",
+      "description": "Condiciones de uso del sitio web de {company}."
+    },
+    "notFound": {
+      "title": "Página no encontrada"
+    }
+  },
+  "common": {
+    "skipToContent": "Saltar al contenido principal",
+    "requestAudit": "Solicitar auditoría",
+    "requestQuote": "Solicitar cotización",
+    "learnMore": "Ver detalles",
+    "seeAllServices": "Ver todos los servicios",
+    "callUs": "Llamar al {phone}",
+    "callShort": "Llamar",
+    "whatsappLabel": "Escríbanos por WhatsApp",
+    "whatsappMessage": "Hola, me interesa información sobre la auditoría de 50 notas para mi clínica.",
+    "menuOpen": "Abrir menú",
+    "menuClose": "Cerrar menú",
+    "languageLabel": "Idioma",
+    "switchTo": "Ver el sitio en inglés",
+    "phone": "Teléfono",
+    "email": "Email",
+    "address": "Dirección",
+    "hours": "Horario",
+    "serviceArea": "Área de servicio",
+    "serviceAreaValue": "Miami-Dade y Broward, Florida",
+    "primaryNav": "Navegación principal",
+    "mobileNav": "Navegación móvil",
+    "breadcrumbHome": "Inicio",
+    "opensNewTab": "(se abre en una pestaña nueva)"
+  },
+  "nav": {
+    "home": "Inicio",
+    "services": "Servicios",
+    "howWeWork": "Cómo trabajamos",
+    "metrics": "Indicadores",
+    "compliance": "Cumplimiento",
+    "about": "Nosotros",
+    "contact": "Contacto"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Facturación y codificación médica · Miami-Dade y Broward",
+      "title": "Que su clínica cobre lo que el médico ya hizo y documentó.",
+      "lead": "Codificamos de forma correcta y completa cada nota para que su clínica cobre lo que le corresponde, reduzca los rechazos, cumpla con los indicadores de calidad del plan y esté protegida ante auditorías.",
+      "ctaPrimary": "Solicitar auditoría",
+      "ctaSecondary": "Ver servicios",
+      "points": [
+        "Codificadores certificados CPC/CRC",
+        "Fee-for-service, HMO y riesgo completo",
+        "Atención en español e inglés"
+      ],
+      "card": {
+        "label": "Oferta de entrada",
+        "title": "Auditoría de 50 notas",
+        "text": "Revisamos una muestra de notas de su clínica y le mostramos con datos:",
+        "items": [
+          "Ingreso legítimo que hoy no se está cobrando",
+          "Diagnósticos documentados sin la especificidad necesaria",
+          "Riesgos de documentación ante una auditoría",
+          "Brechas de calidad (estrellas/HEDIS) abiertas"
+        ],
+        "cta": "Solicitar auditoría",
+        "note": "Sin compromiso de contratación. Se realiza bajo un acuerdo BAA de HIPAA."
+      }
+    },
+    "problems": {
+      "eyebrow": "Lo que resolvemos",
+      "title": "Los problemas que vemos en las clínicas cada semana",
+      "lead": "La mayoría de las clínicas no pierde dinero por atender mal, sino porque lo que el médico hizo no llega completo a la reclamación.",
+      "items": [
+        {
+          "title": "Notas sin codificar o atrasadas",
+          "text": "Visitas que se acumulan sin facturar y reclamaciones que se acercan al plazo límite de presentación."
+        },
+        {
+          "title": "Rechazos que se repiten",
+          "text": "Los mismos errores de elegibilidad, modificadores o diagnóstico generan rechazos mes tras mes y nadie los corrige de raíz."
+        },
+        {
+          "title": "Cuentas por cobrar que envejecen",
+          "text": "Saldos de más de 90 días que nadie persigue y que, con el tiempo, dejan de ser cobrables."
+        },
+        {
+          "title": "Diagnósticos incompletos",
+          "text": "Condiciones crónicas que el médico evalúa pero que no quedan documentadas o codificadas con la especificidad que exigen ICD-10 y el ajuste de riesgo."
+        },
+        {
+          "title": "Brechas de calidad abiertas",
+          "text": "Medidas de estrellas y HEDIS que se cumplieron en la consulta pero no se reportaron, o que se descubren tarde, al cierre del año."
+        },
+        {
+          "title": "Exposición ante auditorías",
+          "text": "Códigos que la nota no sustenta. En una auditoría RADV o de un plan, eso significa devoluciones y sanciones."
+        }
+      ]
+    },
+    "services": {
+      "eyebrow": "Servicios",
+      "title": "Un equipo de facturación y codificación que trabaja como parte de su clínica",
+      "lead": "Elija el servicio completo o solo la parte que necesita. Todos se adaptan al tipo de contrato de su clínica."
+    },
+    "clinicTypes": {
+      "eyebrow": "Para qué tipo de clínica",
+      "title": "Cada modelo de contrato necesita algo distinto",
+      "lead": "Muchas clínicas de Miami combinan varios modelos. Ajustamos el trabajo a cómo cobra realmente su clínica.",
+      "items": [
+        {
+          "title": "Fee-for-service",
+          "model": "Cobra por cada visita",
+          "benefit": "Cobrar cada visita completa, a tiempo y con menos rechazos.",
+          "points": [
+            "Nivel de visita (E/M) y procedimientos codificados según lo documentado",
+            "Reclamaciones revisadas antes del envío",
+            "Seguimiento de rechazos y cuentas por cobrar hasta el cobro"
+          ]
+        },
+        {
+          "title": "HMO (tarifa fija o capitación)",
+          "model": "Recibe un pago fijo por paciente",
+          "benefit": "Datos de encuentro completos y medidas de calidad cumplidas.",
+          "points": [
+            "Cada encuentro reportado al plan con sus diagnósticos completos",
+            "Condiciones crónicas evaluadas y documentadas cada año",
+            "Brechas de estrellas/HEDIS trabajadas durante todo el año"
+          ]
+        },
+        {
+          "title": "Riesgo completo (full risk)",
+          "model": "Asume el riesgo financiero del paciente",
+          "benefit": "Que el ajuste de riesgo refleje la complejidad real que documenta el médico.",
+          "points": [
+            "Codificación de riesgo (HCC) sustentada en cada nota",
+            "Preparación de visitas y revisión de notas antes del cierre",
+            "Documentación lista para una auditoría RADV"
+          ]
+        }
+      ]
+    },
+    "process": {
+      "eyebrow": "Cómo trabajamos",
+      "title": "Cinco pasos, sin interrumpir su consulta",
+      "lead": "Trabajamos dentro del sistema clínico que ya usa su clínica. Su equipo no tiene que cambiar de software.",
+      "steps": [
+        {
+          "title": "Auditoría de 50 notas",
+          "text": "Medimos dónde está hoy su clínica: ingreso no cobrado, riesgos de documentación y brechas de calidad."
+        },
+        {
+          "title": "Propuesta, contrato y BAA",
+          "text": "Le presentamos un modelo adaptado a su clínica y firmamos el acuerdo de asociado comercial (BAA) de HIPAA."
+        },
+        {
+          "title": "Acceso y arranque",
+          "text": "Su clínica nos crea usuarios propios en su sistema clínico. Configuramos el flujo con su equipo."
+        },
+        {
+          "title": "Codificación, control de calidad y envío",
+          "text": "Codificamos cada nota, revisamos una muestra en control de calidad y enviamos y seguimos cada reclamación."
+        },
+        {
+          "title": "Informe mensual",
+          "text": "Cada mes revisamos con usted los indicadores, los rechazos y las oportunidades de mejora en la documentación."
+        }
+      ],
+      "cta": "Ver el proceso completo"
+    },
+    "metrics": {
+      "eyebrow": "Indicadores",
+      "title": "Lo que medimos y reportamos cada mes",
+      "lead": "Estas son nuestras metas de servicio. Las medimos con los datos de su clínica y las compartimos en el informe mensual.",
+      "cta": "Cómo medimos cada indicador"
+    },
+    "compliance": {
+      "eyebrow": "Cumplimiento y seguridad",
+      "title": "Codificamos solo lo que el médico documenta",
+      "lead": "La información de sus pacientes y la reputación de su clínica están en juego. Por eso el cumplimiento es parte del proceso, no un añadido.",
+      "items": [
+        {
+          "title": "Cumplimos con HIPAA",
+          "text": "BAA con cada cliente, cifrado, autenticación en dos pasos y acceso solo a lo necesario."
+        },
+        {
+          "title": "Programa según la guía de la OIG",
+          "text": "Políticas escritas, responsable de cumplimiento, formación, auditorías internas y acciones correctivas."
+        },
+        {
+          "title": "Basado en la documentación",
+          "text": "El médico evalúa y documenta. El codificador nunca diagnostica ni añade códigos que la nota no sustente."
+        },
+        {
+          "title": "Equipo en EE. UU.",
+          "text": "Todo el personal con acceso a información de pacientes trabaja desde Estados Unidos."
+        }
+      ],
+      "cta": "Ver cumplimiento y seguridad"
+    },
+    "faq": {
+      "eyebrow": "Preguntas frecuentes",
+      "title": "Lo que nos preguntan los dueños y administradores de clínicas",
+      "items": [
+        {
+          "q": "¿Cuánto cuesta?",
+          "a": "Depende del modelo de su clínica. Para fee-for-service cobramos un porcentaje de lo efectivamente cobrado; para clínicas bajo HMO o en riesgo completo, una tarifa fija mensual. Los proyectos y el credentialing se cotizan por alcance. Le enviamos una cotización por escrito después de conocer su volumen, y sin costos ocultos."
+        },
+        {
+          "q": "¿Cómo acceden a nuestro sistema?",
+          "a": "Su clínica crea un usuario propio para cada miembro de nuestro equipo en su sistema clínico (eClinicalWorks, athenahealth, AdvancedMD, Tebra u otro), con autenticación en dos pasos y solo los permisos necesarios. Nunca usamos contraseñas compartidas y usted puede revocar el acceso en cualquier momento."
+        },
+        {
+          "q": "¿Qué pasa con HIPAA?",
+          "a": "Antes de ver cualquier información de pacientes firmamos un acuerdo de asociado comercial (BAA). Cumplimos con HIPAA mediante cifrado, autenticación en dos pasos, control de accesos, registro de actividad y formación anual de todo el equipo. No existe una certificación oficial de HIPAA: lo que importa son los controles, y se los mostramos."
+        },
+        {
+          "q": "¿En cuánto tiempo pueden empezar?",
+          "a": "La auditoría de 50 notas suele entregarse en 5 a 10 días hábiles desde que tenemos acceso. El servicio continuo normalmente arranca entre 2 y 4 semanas después de firmar, según la rapidez de los accesos y de las inscripciones con los seguros (por ejemplo, para pagos y remesas electrónicas)."
+        },
+        {
+          "q": "¿Trabajan con Medicare, Medicaid y seguros privados?",
+          "a": "Sí. Trabajamos con Medicare tradicional, planes Medicare Advantage (HMO y PPO), planes de Medicaid de Florida y seguros comerciales. Nos adaptamos a las reglas de cada pagador y de cada contrato de su clínica."
+        },
+        {
+          "q": "¿Qué diferencia hay entre la facturación integral y el codificador dedicado?",
+          "a": "La facturación integral (RCM) cubre todo el ciclo de cobro: codificación, envío de reclamaciones, pagos, rechazos, cuentas por cobrar e informes. El codificador dedicado es una persona certificada asignada a su clínica que se enfoca en la calidad de la documentación, la codificación de riesgo y las brechas de calidad; es especialmente útil para clínicas bajo HMO o en riesgo completo. Muchas clínicas combinan ambos."
+        },
+        {
+          "q": "¿Hay un contrato mínimo?",
+          "a": "Los servicios continuos tienen un periodo inicial que acordamos en la propuesta y después se renuevan mes a mes, con aviso previo por escrito para terminar el contrato y asegurar una transición ordenada de las cuentas pendientes. Los proyectos se contratan por alcance, sin permanencia."
+        },
+        {
+          "q": "¿Qué incluye la auditoría de 50 notas?",
+          "a": "Revisamos 50 notas recientes elegidas con usted (distintos proveedores y tipos de visita). Evaluamos el nivel de visita, los procedimientos, la especificidad de los diagnósticos, el sustento de las condiciones de riesgo, los modificadores y las brechas de calidad. Recibe un informe escrito con hallazgos, una estimación del ingreso legítimo no cobrado, los riesgos de su documentación y recomendaciones, y una reunión para revisarlo. No le obliga a contratar."
+        },
+        {
+          "q": "¿El codificador le dice al médico qué diagnosticar?",
+          "a": "No. El médico siempre evalúa, diagnostica y documenta. El codificador prepara información del expediente para que el médico la revise y, si una nota es ambigua, hace una consulta neutral, sin sugerir una respuesta. Codificamos solo lo que el médico documenta y sustenta."
+        },
+        {
+          "q": "¿Atienden en español?",
+          "a": "Sí. Nuestro equipo trabaja en español y en inglés, tanto con los dueños y administradores como con el personal de recepción y facturación de la clínica."
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "Empiece por ver sus números reales",
+      "text": "La auditoría de 50 notas le muestra cuánto ingreso legítimo está dejando de cobrar y qué riesgos tiene su documentación, antes de tomar cualquier decisión.",
+      "primary": "Solicitar auditoría",
+      "secondary": "Llamar al {phone}"
+    }
+  },
+  "servicesData": {
+    "rcm": {
+      "title": "Facturación integral (RCM)",
+      "short": "Todo el ciclo de cobro, de la nota al depósito: codificación, envío, pagos, rechazos, cuentas por cobrar e informe mensual.",
+      "summary": "Nos encargamos de todo el ciclo de ingresos de su clínica para que su equipo pueda enfocarse en los pacientes. Cada nota se codifica, cada reclamación se envía revisada y cada saldo se persigue hasta que se cobra o se resuelve.",
+      "includesTitle": "Qué incluye",
+      "includes": [
+        "Codificación de cada nota (CPT, ICD-10-CM, HCPCS y modificadores) según lo documentado",
+        "Revisión de datos del paciente y del seguro antes del envío",
+        "Envío electrónico de reclamaciones y corrección de las que el clearinghouse devuelve",
+        "Registro de pagos y remesas (ERA/EOB) y conciliación con los depósitos",
+        "Gestión de rechazos y apelaciones dentro de los plazos de cada pagador",
+        "Seguimiento de cuentas por cobrar por antigüedad y por pagador",
+        "Estados de cuenta de pacientes y respuesta a sus consultas de facturación",
+        "Informe mensual con indicadores y reunión de revisión"
+      ],
+      "idealTitle": "Ideal para",
+      "ideal": "Clínicas fee-for-service o mixtas que quieren externalizar la facturación completa o reemplazar a un proveedor actual."
+    },
+    "coder": {
+      "title": "Codificador dedicado: riesgo y calidad",
+      "short": "Un codificador certificado (CPC/CRC) asignado a su clínica para preparar visitas, revisar notas y trabajar las brechas de calidad.",
+      "summary": "Un codificador certificado que conoce a sus médicos, sus pacientes y sus contratos. Trabaja antes y después de la consulta para que la documentación refleje de forma correcta y completa la complejidad de cada paciente y las medidas de calidad que ya se cumplieron.",
+      "includesTitle": "Qué incluye",
+      "includes": [
+        "Un codificador certificado CPC o CRC asignado a su clínica",
+        "Preparación de visitas: resumen del expediente, condiciones crónicas pendientes de evaluar en el año y brechas de calidad abiertas",
+        "Sustento de diagnósticos para la lista de problemas: reúne evidencia del expediente (laboratorios, especialistas, hospitalizaciones) para que el médico la evalúe",
+        "Revisión de notas antes del cierre: especificidad, sustento de cada condición (MEAT) y coherencia",
+        "Consultas neutrales al médico cuando la documentación es ambigua",
+        "Trabajo de brechas de calidad (estrellas/HEDIS) y reporte de códigos de calidad",
+        "Informe mensual de hallazgos de documentación y formación breve para los médicos"
+      ],
+      "guardrailTitle": "Un límite que no cruzamos",
+      "guardrail": "El médico siempre evalúa y documenta. El codificador nunca diagnostica, nunca sugiere una respuesta en sus consultas y nunca codifica una condición que la nota no sustente.",
+      "idealTitle": "Ideal para",
+      "ideal": "Clínicas con pacientes de Medicare Advantage bajo HMO (tarifa fija o capitación) o en riesgo completo."
+    },
+    "projects": {
+      "title": "Proyectos",
+      "short": "Limpieza de notas atrasadas, auditorías de codificación y recuperación de cuentas por cobrar antiguas.",
+      "summary": "Trabajos con un alcance y una fecha de entrega definidos, para resolver un problema puntual o preparar a su clínica antes de un cambio.",
+      "includesTitle": "Tipos de proyecto",
+      "includes": [
+        "Limpieza de notas atrasadas: codificamos y enviamos el rezago priorizando los plazos de presentación",
+        "Auditorías de codificación: nivel de visita (E/M), procedimientos, risk adjustment, previas al envío o retrospectivas",
+        "Recuperación de cuentas por cobrar antiguas: revisión saldo por saldo, corrección, reenvío y apelación cuando procede",
+        "Identificación de sobrepagos y apoyo para su devolución a tiempo",
+        "Informe final con hallazgos, acciones tomadas y recomendaciones"
+      ],
+      "idealTitle": "Ideal para",
+      "ideal": "Clínicas que cambian de proveedor de facturación o de sistema clínico, que acumulan rezago o que quieren prepararse para una auditoría."
+    },
+    "credentialing": {
+      "title": "Credentialing",
+      "short": "Alta y mantenimiento de sus médicos con Medicare, Medicaid, planes Medicare Advantage y seguros comerciales.",
+      "summary": "Un proveedor que no está correctamente inscrito no cobra. Gestionamos las altas, las renovaciones y los vencimientos para que ningún médico atienda fuera de red por un trámite pendiente.",
+      "includesTitle": "Qué incluye",
+      "includes": [
+        "Creación y actualización del perfil CAQH ProView",
+        "Inscripción en Medicare (PECOS) y Medicaid de Florida",
+        "Solicitudes de participación con planes Medicare Advantage y seguros comerciales",
+        "Inscripción para pagos y remesas electrónicas (EFT/ERA)",
+        "Recredencialización y control de vencimientos de licencias, DEA y seguros de responsabilidad",
+        "Registro del estado de cada solicitud, compartido con su clínica"
+      ],
+      "idealTitle": "Ideal para",
+      "ideal": "Clínicas que incorporan médicos nuevos, abren una nueva sede o quieren ordenar inscripciones vencidas."
+    }
+  },
+  "servicesPage": {
+    "eyebrow": "Servicios",
+    "title": "Servicios de facturación y codificación médica",
+    "lead": "Cuatro servicios que puede contratar por separado o combinar. Todos empiezan por entender cómo cobra su clínica.",
+    "jumpTo": "Ir a un servicio",
+    "pricing": {
+      "eyebrow": "Modelo de servicio",
+      "title": "Un modelo que se adapta a cómo cobra su clínica",
+      "lead": "No publicamos precios porque cada clínica es distinta. Le enviamos una cotización por escrito según su volumen, sus pagadores y el servicio que necesita.",
+      "models": [
+        {
+          "title": "Fee-for-service",
+          "basis": "Porcentaje de lo cobrado",
+          "text": "Cobramos un porcentaje de lo que su clínica efectivamente cobra. Nuestro ingreso depende de que usted cobre."
+        },
+        {
+          "title": "HMO o riesgo completo",
+          "basis": "Tarifa fija mensual",
+          "text": "Una tarifa fija según el número de proveedores y el volumen de visitas. Así nuestra remuneración no depende de los códigos que se reportan."
+        },
+        {
+          "title": "Proyectos y credentialing",
+          "basis": "Por alcance",
+          "text": "Una cotización cerrada según el volumen de notas, cuentas o proveedores del proyecto."
+        }
+      ],
+      "note": "Nunca vinculamos nuestra remuneración a la cantidad de diagnósticos o a la puntuación de riesgo de sus pacientes.",
+      "cta": "Solicitar cotización"
+    },
+    "ctaTitle": "¿No sabe por dónde empezar?",
+    "ctaText": "Empiece por la auditoría de 50 notas. Con sus resultados le recomendamos el servicio que tiene sentido para su clínica, o ninguno."
+  },
+  "howWeWorkPage": {
+    "eyebrow": "Cómo trabajamos",
+    "title": "Un proceso claro, dentro de su propio sistema",
+    "lead": "Trabajamos dentro del sistema clínico de su clínica, con usuarios propios y controles de HIPAA desde el primer día.",
+    "stepLabel": "Paso",
+    "steps": [
+      {
+        "title": "Contrato y BAA de HIPAA",
+        "text": "Firmamos el contrato de servicio y el acuerdo de asociado comercial (BAA) antes de tener acceso a cualquier información de pacientes.",
+        "details": [
+          "Alcance, metas de servicio y responsabilidades por escrito",
+          "BAA conforme a HIPAA",
+          "Un responsable asignado en cada lado"
+        ]
+      },
+      {
+        "title": "Acceso con usuario propio",
+        "text": "Su clínica crea un usuario individual para cada miembro de nuestro equipo en su sistema clínico y en los portales de los pagadores.",
+        "details": [
+          "Nunca contraseñas compartidas",
+          "Autenticación en dos pasos",
+          "Solo los permisos mínimos necesarios, revocables en cualquier momento"
+        ]
+      },
+      {
+        "title": "Codificación",
+        "text": "Codificamos cada nota firmada según lo que el médico documentó, normalmente dentro de las 48 horas hábiles siguientes.",
+        "details": [
+          "CPT, ICD-10-CM, HCPCS y modificadores",
+          "Consultas neutrales al médico cuando la nota es ambigua",
+          "Preparación de visitas si tiene codificador dedicado"
+        ]
+      },
+      {
+        "title": "Control de calidad",
+        "text": "Un segundo codificador revisa cada mes una muestra del trabajo. Los errores se corrigen y se convierten en formación.",
+        "details": [
+          "Muestra por codificador y por proveedor",
+          "Medición de la precisión de codificación",
+          "Correcciones antes del envío cuando es posible"
+        ]
+      },
+      {
+        "title": "Envío y seguimiento",
+        "text": "Enviamos las reclamaciones, registramos los pagos y perseguimos cada rechazo y cada saldo pendiente.",
+        "details": [
+          "Revisión de rechazos del clearinghouse en el día",
+          "Apelaciones dentro de los plazos de cada pagador",
+          "Seguimiento de cuentas por cobrar por antigüedad"
+        ]
+      },
+      {
+        "title": "Informe mensual",
+        "text": "Cada mes recibe un informe con los indicadores y una reunión para revisarlo con su equipo.",
+        "details": [
+          "Indicadores frente a las metas de servicio",
+          "Principales causas de rechazo y cómo las corregimos",
+          "Oportunidades de mejora en la documentación"
+        ]
+      }
+    ],
+    "systems": {
+      "title": "Trabajamos dentro de su sistema clínico",
+      "lead": "No le pedimos cambiar de software. Trabajamos en el sistema que ya usa su clínica, por ejemplo:",
+      "list": ["eClinicalWorks", "athenahealth", "AdvancedMD", "Tebra (Kareo)", "NextGen", "Practice Fusion", "DrChrono"],
+      "note": "¿Usa otro sistema? Pregúntenos: lo habitual es que podamos trabajar en él."
+    },
+    "needs": {
+      "title": "Lo que necesitamos de su clínica",
+      "items": [
+        "Un contacto responsable para resolver dudas",
+        "Usuarios propios en el sistema clínico y en los portales de los pagadores",
+        "Notas firmadas a tiempo por los médicos",
+        "Copia de los contratos o tarifas de los principales pagadores"
+      ]
+    },
+    "timeline": {
+      "title": "Plazos habituales",
+      "items": [
+        { "when": "Semana 1", "what": "Contrato, BAA y solicitud de accesos" },
+        { "when": "Semanas 2–3", "what": "Configuración, inscripciones electrónicas y primeras notas" },
+        { "when": "Semana 4", "what": "Operación completa y primer corte de indicadores" },
+        { "when": "Cada mes", "what": "Informe y reunión de revisión" }
+      ],
+      "note": "Los plazos dependen de la rapidez de los accesos y de las inscripciones con los pagadores."
+    }
+  },
+  "metricsData": {
+    "items": [
+      {
+        "key": "cleanClaim",
+        "value": "≥ 95 %",
+        "label": "Reclamaciones limpias en el primer envío",
+        "definition": "Porcentaje de reclamaciones aceptadas por el clearinghouse y el pagador en el primer envío, sin correcciones."
+      },
+      {
+        "key": "denialRate",
+        "value": "≤ 5 %",
+        "label": "Tasa de rechazo",
+        "definition": "Porcentaje de reclamaciones procesadas que el pagador rechaza total o parcialmente."
+      },
+      {
+        "key": "daysAr",
+        "value": "≤ 35",
+        "label": "Días en cuentas por cobrar",
+        "definition": "Promedio de días que tarda en cobrarse un servicio desde que se presta."
+      },
+      {
+        "key": "netCollection",
+        "value": "≥ 95 %",
+        "label": "Tasa de cobro neto",
+        "definition": "Lo cobrado frente a lo que se podía cobrar según los contratos, después de ajustes contractuales."
+      },
+      {
+        "key": "codingAccuracy",
+        "value": "≥ 95 %",
+        "label": "Precisión de codificación",
+        "definition": "Resultado de nuestras auditorías internas de control de calidad sobre una muestra mensual de notas."
+      },
+      {
+        "key": "turnaround",
+        "value": "≤ 48 h",
+        "label": "Notas codificadas",
+        "definition": "Tiempo hábil desde que el médico firma la nota hasta que queda codificada."
+      }
+    ],
+    "disclaimer": "Metas de servicio, no resultados garantizados. Dependen de la documentación, la mezcla de pagadores y la información de registro de cada clínica."
+  },
+  "metricsPage": {
+    "eyebrow": "Indicadores",
+    "title": "Metas de servicio que medimos cada mes",
+    "lead": "Lo que no se mide no se mejora. Estos son los seis indicadores que seguimos para cada clínica y que verá en su informe mensual.",
+    "targetLabel": "Meta",
+    "definitionLabel": "Cómo se mide",
+    "disclaimerTitle": "Metas, no promesas",
+    "disclaimer": "Estas cifras son metas de servicio, no resultados garantizados. Los resultados de cada clínica dependen de factores como la calidad y la puntualidad de la documentación, la mezcla de pagadores, la exactitud de los datos de registro de los pacientes y las políticas de cada plan. Las fijamos para medirnos, explicarle cualquier desviación y corregirla.",
+    "reporting": {
+      "title": "Qué recibe en el informe mensual",
+      "items": [
+        "Los seis indicadores, frente a la meta y frente al mes anterior",
+        "Rechazos agrupados por causa y por pagador, con las acciones tomadas",
+        "Cuentas por cobrar por antigüedad (0–30, 31–60, 61–90 y más de 90 días)",
+        "Hallazgos de documentación por proveedor",
+        "Avance de brechas de calidad si su clínica trabaja bajo HMO o en riesgo completo"
+      ]
+    },
+    "factors": {
+      "title": "Factores que influyen en los resultados",
+      "items": [
+        "Notas firmadas a tiempo y con documentación completa",
+        "Información de seguro correcta en el registro del paciente",
+        "Mezcla de pagadores y sus políticas de autorización",
+        "Saldos heredados de un proveedor anterior"
+      ]
+    }
+  },
+  "compliancePage": {
+    "eyebrow": "Cumplimiento y seguridad",
+    "title": "Protegemos a sus pacientes y a su clínica",
+    "lead": "La codificación correcta y completa solo tiene valor si también es defendible. Estos son los controles con los que trabajamos.",
+    "sections": [
+      {
+        "id": "hipaa",
+        "title": "Cumplimos con HIPAA",
+        "text": "No existe una certificación oficial de HIPAA. Lo que existe son controles concretos, y estos son los nuestros:",
+        "items": [
+          "Acuerdo de asociado comercial (BAA) firmado con cada cliente antes de cualquier acceso",
+          "Cifrado de la información en tránsito y en reposo",
+          "Autenticación en dos pasos en todos los sistemas",
+          "Control de accesos: usuarios individuales, mínimo necesario y revocación inmediata al terminar",
+          "Formación anual en HIPAA para todo el equipo",
+          "Procedimiento de respuesta a incidentes y notificación conforme a la regla de notificación de brechas",
+          "Evaluación periódica de riesgos de seguridad"
+        ]
+      },
+      {
+        "id": "oig",
+        "title": "Programa de cumplimiento según la guía de la OIG",
+        "text": "Seguimos los elementos de un programa de cumplimiento eficaz que describe la Oficina del Inspector General (OIG) del Departamento de Salud y Servicios Humanos de EE. UU.:",
+        "items": [
+          "Políticas y procedimientos escritos de codificación y facturación",
+          "Un responsable de cumplimiento designado",
+          "Formación continua del equipo",
+          "Canales abiertos para reportar dudas o problemas, sin represalias",
+          "Auditorías y monitoreo internos",
+          "Medidas disciplinarias aplicadas de forma coherente",
+          "Respuesta rápida y acciones correctivas, incluida la devolución de sobrepagos identificados",
+          "Verificación del personal en la lista de exclusiones de la OIG (LEIE)"
+        ]
+      },
+      {
+        "id": "documentation",
+        "title": "Codificación basada únicamente en lo documentado",
+        "text": "Codificamos lo que el médico evaluó y documentó, ni más ni menos.",
+        "items": [
+          "El médico siempre evalúa, diagnostica y documenta; el codificador nunca diagnostica",
+          "Cada condición de riesgo debe estar sustentada en la nota (monitoreo, evaluación, análisis o tratamiento)",
+          "Consultas al médico neutrales y sin sugerir respuesta",
+          "Cuando un código no está sustentado lo señalamos, aunque reduzca el cobro",
+          "Si detectamos un sobrepago, le ayudamos a reportarlo y devolverlo dentro del plazo"
+        ]
+      },
+      {
+        "id": "team",
+        "title": "Equipo ubicado en EE. UU.",
+        "text": "Todo el personal con acceso a información de sus pacientes trabaja desde Estados Unidos.",
+        "items": [
+          "Sin subcontratación fuera del país para trabajo con información de pacientes",
+          "Verificación de antecedentes antes de la contratación",
+          "Acuerdos de confidencialidad firmados por cada miembro del equipo"
+        ]
+      }
+    ],
+    "formNoticeTitle": "Sobre este sitio web",
+    "formNotice": "El formulario de contacto de este sitio no está diseñado para recibir información de pacientes. Por favor, no la incluya. La información clínica se intercambia solo después de firmar un BAA y por canales seguros."
+  },
+  "aboutPage": {
+    "eyebrow": "Nosotros",
+    "title": "Un equipo de facturación que habla el idioma de su clínica",
+    "lead": "{company} nace en Miami para dar a las clínicas locales un servicio de facturación y codificación serio, cercano y bilingüe.",
+    "mission": {
+      "title": "Nuestra misión",
+      "text": "Que cada clínica cobre de forma correcta y completa lo que sus médicos hacen y documentan, con la tranquilidad de que todo lo que se factura se puede defender."
+    },
+    "values": {
+      "title": "Cómo trabajamos",
+      "items": [
+        {
+          "title": "Exactitud antes que volumen",
+          "text": "Preferimos un código bien sustentado a uno que no resiste una auditoría."
+        },
+        {
+          "title": "Transparencia",
+          "text": "Indicadores mensuales, accesos auditables y respuestas claras, también cuando la noticia no es buena."
+        },
+        {
+          "title": "Cercanía",
+          "text": "Un equipo local, en su idioma, que conoce a sus médicos y a sus pagadores."
+        },
+        {
+          "title": "Cumplimiento",
+          "text": "HIPAA y la guía de la OIG forman parte de cada proceso, no de un manual olvidado."
+        }
+      ]
+    },
+    "team": {
+      "title": "Nuestro equipo",
+      "lead": "Codificadores certificados y especialistas en facturación con experiencia en clínicas del sur de Florida.",
+      "photoPlaceholder": "Foto",
+      "members": [
+        {
+          "name": "[Nombre y apellido]",
+          "role": "Dirección general",
+          "bio": "[Biografía breve: experiencia en facturación médica, trayectoria con clínicas del sur de Florida e idiomas.]"
+        },
+        {
+          "name": "[Nombre y apellido], CPC, CRC",
+          "role": "Dirección de codificación",
+          "bio": "[Biografía breve: certificaciones, años de experiencia en codificación de riesgo y calidad, especialidades.]"
+        },
+        {
+          "name": "[Nombre y apellido]",
+          "role": "Responsable de cumplimiento",
+          "bio": "[Biografía breve: experiencia en HIPAA, programas de cumplimiento y auditoría.]"
+        }
+      ]
+    }
+  },
+  "contactPage": {
+    "eyebrow": "Contacto",
+    "title": "Solicite su auditoría de 50 notas",
+    "lead": "Cuéntenos sobre su clínica. Le respondemos en un día hábil para coordinar la auditoría o enviarle una cotización.",
+    "phiNotice": {
+      "title": "No incluya información de pacientes en este formulario",
+      "text": "Ni nombres, ni fechas de nacimiento, ni números de seguro o de expediente. La información de pacientes se comparte solo después de firmar un BAA y por un canal seguro."
+    },
+    "nextSteps": {
+      "title": "Qué pasa después",
+      "items": [
+        "Le llamamos o escribimos en un día hábil para entender su clínica.",
+        "Firmamos un BAA y acordamos cómo acceder de forma segura a una muestra de notas.",
+        "Revisamos 50 notas y le presentamos el informe en una reunión."
+      ]
+    },
+    "otherWays": "Otras formas de contactarnos"
+  },
+  "form": {
+    "legend": {
+      "you": "Sus datos",
+      "clinic": "Su clínica",
+      "request": "Su solicitud"
+    },
+    "requiredHint": "Los campos marcados con * son obligatorios.",
+    "fields": {
+      "name": "Nombre completo",
+      "role": "Cargo",
+      "rolePlaceholder": "Dueño, administrador, gerente de facturación…",
+      "clinic": "Nombre de la clínica",
+      "city": "Ciudad",
+      "phone": "Teléfono",
+      "email": "Email",
+      "providers": "Número de proveedores",
+      "contract": "Tipo de contrato principal",
+      "service": "Servicio de interés",
+      "message": "Mensaje",
+      "messageHint": "Opcional. Cuéntenos su situación en términos generales. No incluya información de pacientes.",
+      "consent": "Acepto que {company} me contacte sobre esta solicitud y he leído la <link>Política de privacidad</link>. Confirmo que no he incluido información de pacientes.",
+      "honeypot": "No complete este campo"
+    },
+    "selectPlaceholder": "Seleccione una opción",
+    "options": {
+      "providers": {
+        "1": "1",
+        "2-5": "2–5",
+        "6-15": "6–15",
+        "16+": "16 o más"
+      },
+      "contract": {
+        "ffs": "Fee-for-service",
+        "hmo": "HMO (tarifa fija o capitación)",
+        "full_risk": "Riesgo completo (full risk)",
+        "unsure": "No lo sé"
+      },
+      "service": {
+        "audit": "Auditoría de 50 notas",
+        "rcm": "Facturación integral (RCM)",
+        "coder": "Codificador dedicado",
+        "projects": "Proyectos",
+        "credentialing": "Credentialing",
+        "unsure": "Aún no lo sé"
+      }
+    },
+    "submit": "Solicitar auditoría",
+    "submitting": "Enviando…",
+    "errors": {
+      "summary": "Revise los campos marcados para continuar.",
+      "required": "Este campo es obligatorio.",
+      "email": "Escriba un email válido.",
+      "phone": "Escriba un teléfono válido de al menos 10 dígitos.",
+      "tooLong": "El texto es demasiado largo.",
+      "invalidOption": "Seleccione una opción.",
+      "consent": "Debe aceptar para continuar.",
+      "phi": "Parece que el mensaje incluye información de pacientes (como fechas de nacimiento o números de identificación). Por favor, elimínela.",
+      "rateLimit": "Ha enviado demasiadas solicitudes. Inténtelo de nuevo en unos minutos o llámenos.",
+      "server": "No pudimos enviar su solicitud. Inténtelo de nuevo o llámenos al {phone}."
+    }
+  },
+  "thankYouPage": {
+    "title": "Gracias, hemos recibido su solicitud",
+    "text": "Le contactaremos en un día hábil para coordinar los siguientes pasos. Si es urgente, llámenos o escríbanos por WhatsApp.",
+    "reminder": "Recuerde: no nos envíe información de pacientes por email ni por WhatsApp. La compartiremos por un canal seguro después de firmar el BAA.",
+    "home": "Volver al inicio",
+    "services": "Ver servicios"
+  },
+  "notFoundPage": {
+    "code": "Error 404",
+    "title": "No encontramos esta página",
+    "text": "Es posible que el enlace haya cambiado o que la dirección tenga un error.",
+    "home": "Volver al inicio",
+    "contact": "Contactarnos"
+  },
+  "testimonials": {
+    "eyebrow": "Testimonios",
+    "title": "Lo que dicen nuestras clínicas",
+    "items": []
+  },
+  "footer": {
+    "tagline": "Facturación y codificación médica para clínicas de Miami-Dade y Broward.",
+    "servicesTitle": "Servicios",
+    "companyTitle": "Empresa",
+    "contactTitle": "Contacto",
+    "legalTitle": "Legal",
+    "privacy": "Política de privacidad",
+    "terms": "Términos de uso",
+    "rights": "© {year} {legalName}. Todos los derechos reservados.",
+    "phiReminder": "No envíe información de pacientes a través de este sitio, por email ni por WhatsApp.",
+    "socialLabel": "{company} en {network}"
+  },
+  "legal": {
+    "reviewNotice": "Borrador pendiente de revisión legal. Este texto es un modelo inicial y debe revisarlo un abogado antes de su publicación definitiva.",
+    "lastUpdated": "Última actualización: [fecha]",
+    "privacy": {
+      "title": "Política de privacidad",
+      "intro": "Esta política explica cómo {legalName} (“{company}”, “nosotros”) trata los datos personales que recibe a través de este sitio web. No se aplica a la información de pacientes que tratamos en nombre de nuestros clientes, que se rige por los contratos de servicio y los acuerdos de asociado comercial (BAA) conforme a HIPAA.",
+      "sections": [
+        {
+          "title": "1. Datos que recopilamos",
+          "paragraphs": [
+            "Datos que usted nos facilita en el formulario de contacto: nombre, cargo, nombre de la clínica, ciudad, teléfono, email, número de proveedores, tipo de contrato, servicio de interés y el mensaje que escriba.",
+            "Datos técnicos de uso agregados y anónimos, como páginas visitadas, país y tipo de dispositivo, obtenidos mediante una herramienta de analítica que no utiliza cookies ni identifica a las personas.",
+            "Este sitio no está diseñado para recibir información de salud protegida (PHI). Le pedimos que no la incluya. Si la recibimos por error, la eliminaremos."
+          ]
+        },
+        {
+          "title": "2. Para qué los usamos",
+          "paragraphs": [
+            "Para responder a su solicitud, preparar una cotización o coordinar la auditoría de notas; para mejorar el sitio web; y para cumplir obligaciones legales. No vendemos ni alquilamos sus datos personales y no los usamos para publicidad de terceros."
+          ]
+        },
+        {
+          "title": "3. Con quién los compartimos",
+          "paragraphs": [
+            "Con proveedores que nos prestan servicios técnicos necesarios para operar el sitio, como el alojamiento web y el envío de emails, bajo obligaciones de confidencialidad. También podremos compartirlos cuando la ley lo exija."
+          ]
+        },
+        {
+          "title": "4. Cookies y analítica",
+          "paragraphs": [
+            "Este sitio no utiliza cookies de publicidad ni píxeles de seguimiento de terceros. La analítica que usamos no instala cookies y trabaja con datos agregados."
+          ]
+        },
+        {
+          "title": "5. Conservación",
+          "paragraphs": [
+            "Conservamos los datos del formulario mientras sea necesario para atender su solicitud y mantener la relación comercial, y después durante el tiempo que exijan las obligaciones legales aplicables."
+          ]
+        },
+        {
+          "title": "6. Seguridad",
+          "paragraphs": [
+            "Aplicamos medidas técnicas y organizativas razonables para proteger sus datos, como el cifrado en tránsito y el acceso restringido. Ningún sistema es completamente seguro, por lo que no podemos garantizar una seguridad absoluta."
+          ]
+        },
+        {
+          "title": "7. Sus opciones",
+          "paragraphs": [
+            "Puede pedirnos acceder a sus datos, corregirlos o eliminarlos, y dejar de recibir comunicaciones, escribiendo a {email}."
+          ]
+        },
+        {
+          "title": "8. Menores de edad",
+          "paragraphs": [
+            "Este sitio está dirigido a profesionales y empresas del sector de la salud. No recopilamos a sabiendas datos de menores de 13 años."
+          ]
+        },
+        {
+          "title": "9. Cambios y contacto",
+          "paragraphs": [
+            "Podemos actualizar esta política. Publicaremos la versión vigente en esta página con su fecha de actualización. Si tiene preguntas, escríbanos a {email} o llámenos al {phone}."
+          ]
+        }
+      ]
+    },
+    "terms": {
+      "title": "Términos de uso",
+      "intro": "Al usar este sitio web de {legalName} (“{company}”) usted acepta estos términos. Si no está de acuerdo, por favor no utilice el sitio.",
+      "sections": [
+        {
+          "title": "1. Finalidad del sitio",
+          "paragraphs": [
+            "El contenido de este sitio tiene fines informativos generales sobre nuestros servicios. No constituye asesoría legal, contable, médica ni de cumplimiento normativo para un caso concreto."
+          ]
+        },
+        {
+          "title": "2. Sin relación contractual",
+          "paragraphs": [
+            "Enviar el formulario o comunicarse con nosotros no crea una relación de prestación de servicios. Esta relación solo existe cuando ambas partes firman un contrato de servicio y, cuando corresponda, un acuerdo de asociado comercial (BAA)."
+          ]
+        },
+        {
+          "title": "3. Indicadores y resultados",
+          "paragraphs": [
+            "Los indicadores publicados son metas de servicio y no resultados garantizados. Los resultados dependen de factores propios de cada clínica, como la documentación, los pagadores y los datos de registro."
+          ]
+        },
+        {
+          "title": "4. Información de pacientes",
+          "paragraphs": [
+            "Usted se compromete a no enviar información de salud protegida (PHI) a través de este sitio, del email general ni de WhatsApp."
+          ]
+        },
+        {
+          "title": "5. Propiedad intelectual",
+          "paragraphs": [
+            "Los textos, el diseño y los elementos gráficos de este sitio pertenecen a {legalName} o se usan con autorización. No pueden reproducirse sin permiso por escrito. Los nombres de sistemas y pagadores mencionados pertenecen a sus respectivos titulares y se citan solo con fines descriptivos, sin implicar afiliación."
+          ]
+        },
+        {
+          "title": "6. Limitación de responsabilidad",
+          "paragraphs": [
+            "El sitio se ofrece “tal cual”. En la medida que lo permita la ley, {legalName} no será responsable de daños derivados del uso del sitio o de la confianza en su contenido."
+          ]
+        },
+        {
+          "title": "7. Enlaces a terceros",
+          "paragraphs": [
+            "El sitio puede incluir enlaces a sitios de terceros, como WhatsApp. No controlamos su contenido ni sus políticas de privacidad."
+          ]
+        },
+        {
+          "title": "8. Ley aplicable",
+          "paragraphs": [
+            "Estos términos se rigen por las leyes del estado de Florida, EE. UU. Cualquier controversia se someterá a los tribunales competentes del condado de Miami-Dade, Florida."
+          ]
+        },
+        {
+          "title": "9. Cambios y contacto",
+          "paragraphs": [
+            "Podemos modificar estos términos en cualquier momento publicando la nueva versión en esta página. Para cualquier consulta, escríbanos a {email}."
+          ]
+        }
+      ]
+    }
+  }
+}

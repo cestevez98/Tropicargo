@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="72" viewBox="0 0 360 72" role="img" aria-label="NOMBRE_EMPRESA">
+  <!-- Logo provisional solo con texto. Reemplácelo por el logo definitivo. -->
+  <rect width="72" height="72" rx="16" fill="#1F3864"/>
+  <rect x="12" y="54" width="48" height="5" rx="2.5" fill="#E9A23B"/>
+  <text x="36" y="44" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="800" font-size="28" fill="#ffffff">NE</text>
+  <text x="88" y="46" font-family="Arial, Helvetica, sans-serif" font-weight="800" font-size="28" fill="#1F3864">NOMBRE_EMPRESA</text>
+</svg>
