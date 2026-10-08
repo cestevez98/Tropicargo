@@ -26,7 +26,7 @@ export const siteConfig = {
   },
 
   /** Dominio de producción, sin barra final. Se usa en SEO, sitemap y Open Graph. */
-  domain: "https://www.example.com",
+  domain: "https://kaluchenterprise.com",
 
   contact: {
     /** Teléfono tal como se muestra. */
